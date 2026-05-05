@@ -1,0 +1,95 @@
+<script setup lang="ts">
+import { Globe20Regular as TranslateIcon } from '@vicons/fluent'
+import { NIcon } from 'naive-ui/es/icon'
+import { storeToRefs } from 'pinia'
+import ArabicIcon from '../CustomIcons/ArabicIcon.vue'
+import ChineseIcon from '../CustomIcons/ChineseIcon.vue'
+import EnglandIcon from '../CustomIcons/EnglandIcon.vue'
+import GermanyIcon from '../CustomIcons/GermanyIcon.vue'
+import PersianIcon from '../CustomIcons/PersianIcon.vue'
+import TurkishIcon from '../CustomIcons/TurkishIcon.vue'
+
+defineProps<{ showTitle?: boolean }>()
+const { t, availableLocales } = useI18n()
+const layoutStore = useLayoutStore()
+const { activeLanguage } = storeToRefs(layoutStore)
+
+/** 仅开放中文 / 英文 */
+const ALLOWED_LOCALES = new Set(['zn', 'en'])
+
+const language = ref(activeLanguage)
+
+onMounted(() => {
+  if (!ALLOWED_LOCALES.has(activeLanguage.value))
+    layoutStore.changeLanguage('zn')
+})
+
+const languages = availableLocales
+  .filter(x => ALLOWED_LOCALES.has(x))
+  .sort(sortLangs)
+  .map((x) => {
+    return {
+      label: () => renderLabel(t(`languages.${x}`), x),
+      value: x,
+    }
+  })
+
+function changeLanguage(lang: string) {
+  layoutStore.changeLanguage(lang)
+  layoutStore.resetWelcomeState()
+  setTimeout(() => window.location.reload(), 1500)
+}
+
+function renderLabel(label: string, language: string) {
+  return h('div', { class: 'flex items-center gap-2' }, [
+    h(getLanguageIcon(language)),
+    h('span', null, { default: () => label }),
+  ])
+}
+
+function getLanguageIcon(language: string) {
+  switch (language) {
+    case 'en':
+      return EnglandIcon
+    case 'de':
+      return GermanyIcon
+    case 'ar':
+      return ArabicIcon
+    case 'tr':
+      return TurkishIcon
+    case 'fa':
+      return PersianIcon
+    case 'zn':
+      return ChineseIcon
+    default:
+      return EnglandIcon
+  }
+}
+
+function sortLangs(a: string, b: string): number {
+  const ordered = ['en', 'zn']
+  return ordered.indexOf(a) - ordered.indexOf(b)
+}
+</script>
+
+<template>
+  <div v-bind="$attrs">
+    <n-tooltip placement="top" trigger="hover">
+      <template #trigger>
+        <n-popselect v-model:value="language" trigger="click" :options="languages" @update-value="changeLanguage">
+          <n-button quaternary :circle="!showTitle">
+            <template #icon>
+              <NIcon size="1.4rem">
+                <TranslateIcon />
+              </NIcon>
+            </template>
+            <span v-if="showTitle">{{ t(`languages.${activeLanguage}`) }}</span>
+          </n-button>
+        </n-popselect>
+      </template>
+      <span>{{ t('button.toggle_langs') }}</span>
+    </n-tooltip>
+  </div>
+</template>
+
+<style lang="scss" scoped></style>

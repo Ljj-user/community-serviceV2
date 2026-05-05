@@ -1,0 +1,35 @@
+package com.community.platform.dto;
+
+import jakarta.validation.constraints.NotNull;
+import lombok.Data;
+
+/**
+ * 超级管理员更新用户请求 DTO（不含密码）
+ */
+@Data
+public class AdminUserUpdateRequest {
+
+    @NotNull(message = "用户ID不能为空")
+    private Long id;
+
+    /**
+     * 角色：1超级管理员 2社区管理员 3普通用户
+     */
+    private Byte role;
+
+    /**
+     * 普通用户身份：1居民老人 2志愿者（仅 role=3，互斥）
+     */
+    private Byte identityType;
+
+    private String realName;
+    private String phone;
+    private String email;
+    private String address;
+
+    /**
+     * 状态：0禁用 1启用
+     */
+    private Byte status;
+}
+

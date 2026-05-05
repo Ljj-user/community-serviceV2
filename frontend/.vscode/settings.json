@@ -1,0 +1,35 @@
+{
+  "cSpell.words": [
+    "antfu",
+    "demi",
+    "Ecommerce",
+    "iconify",
+    "intlify",
+    "pinia",
+    "pnpm",
+    "Shabnam",
+    "sider",
+    "umami",
+    "unocss",
+    "unplugin",
+    "Vite",
+    "vitejs",
+    "Vitesse",
+    "vitest",
+    "vueuse"
+  ],
+  "i18n-ally.sourceLanguage": "en",
+  "i18n-ally.keystyle": "nested",
+  "i18n-ally.localesPaths": "src/locales",
+  "i18n-ally.sortKeys": false,
+  "prettier.enable": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.biome": "always"
+  },
+  "files.associations": {
+    "*.css": "postcss"
+  },
+  "editor.formatOnSave": false,
+  "editor.occurrencesHighlight": "off",
+  "editor.selectionHighlight": false
+}

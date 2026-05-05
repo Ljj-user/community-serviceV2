@@ -1,0 +1,1040 @@
+title: 社区管理系统
+description: 社区公益服务对接管理平台
+currencySign: ¥
+direction: ltr
+home: 首页
+not-found: 未找到
+announcementWelcome:
+  fallbackTitle: 社区公告
+  publishedAt: 发布时间
+  viewAll: 查看全部公告
+  gotIt: 我知道了
+  dontShowToday: 今日不再提醒
+  empty: 暂无公告内容
+  close: 关闭
+languages:
+  ar: 阿拉伯语
+  zn: 中文
+  de: 德语
+  en: 英语
+  fa: 波斯语
+  tr: 土耳其语
+enums:
+  OrderStatus:
+    Delivered: 已送达
+    Processing: 处理中
+    ReadyToSend: 准备发货
+    Sent: 已发货
+    Submitted: 已提交
+  ProductStatus:
+    Active: 激活
+    Draft: 草稿
+    NotActive: 未激活
+common:
+  403Error: 您没有访问权限
+  404Error: 404错误
+  404Message: 抱歉，您要查找的页面不存在、已被删除、名称已更改或暂时不可用
+  500Error: 500 Error
+  500Message: 出现错误。请稍后重试；如果问题仍然存在，请联系管理员。
+  actions: 操作
+  cancel: 取消
+  confirm: 确认
+  create: 确认
+  currency: CNY
+  date: 日期
+  day: 天
+  delete: 删除
+  deleteConfirm: 确认删除？
+  deletedMessage: 删除成功
+  goHome: 返回首页
+  locale: zh-CN
+  maintenance: 网站正在维护中
+  maintenanceDetail: 我们目前正在进行定期维护。很快将恢复正常！
+  month: 月
+  name: 姓名
+  new: 新
+  notFound: 未找到
+  oops: Oops Page
+  price: 价格
+  refresh: 刷新
+  search: 搜索
+  settings: 设置
+  status: 状态
+  week: 星期
+  filter: 筛选
+  clearFilter: 清除筛选
+analyticsDashboard:
+  bounceRate: 跳出率
+  summary: 概括
+  views: 浏览
+  visitors: 访客
+  visits: 访问
+  pages: 页面
+  source: 来源
+brands:
+  brand: 品牌
+  create:
+    brandName: 名称
+    buttonTitle: 创建
+    image: 图片
+    title: 创建新品牌
+    url: 网址
+  createButton: 创建
+  name: 名称
+  shortName: 简称
+  title: 品牌
+  validations:
+    image: 图片必填
+    name: 名称必填
+    url: 网址必填
+button:
+  about: 关于
+  back: 返回
+  go: 前往
+  home: 首页
+  notifications: 通知
+  toggle_customize: 定制
+  toggle_dark: 切换深色模式
+  toggle_fullscreen: 全屏
+  toggle_langs: 切换语言
+categories:
+  count: 数数
+  create:
+    buttonTitle: 创建
+    categoryName: 名称
+    parent: 父级
+    title: 创建新分类
+  createButton: 创建
+  createdSucceed: 创建成功
+  stat: 统计
+  title: 分类
+  topCategories: 顶级分类
+  validations:
+    nameRequired: 名称必填
+    parentRequired: 未选择父级
+category:
+  name: 分类
+  productsCount: 产品数量
+chatApp:
+  call: 称呼
+  writeMessage: 写消息
+colors:
+  color: 颜色
+  create:
+    buttonTitle: 创建
+    color: 颜色
+    name: 名称
+    title: 创建新颜色
+  createButton: 创建
+  name: 名称
+  title: 颜色
+  validations:
+    colorRequired: 未选择颜色
+    nameRequired: 名称必填
+customers:
+  customerName: 客户名称
+  email: 电子邮件
+  joinDate: 加入日期
+  ordersCount: 订单数量
+  phone: 电话
+  title: 客户
+customize:
+  color: 颜色
+  flatDesign: 扁平化设计
+  fluid: 流体布局
+  language: 语言
+  layout: 布局
+  rtl: RTL布局
+  theme: 主题
+  title: 定制
+dashboard:
+  activeOrders: 活跃订单
+  genderChart:
+    title: 客户性别
+  locationChart:
+    title: 客户位置
+  monthlySell: 每月销售
+  products: 产品
+  recentOrders: 近期订单
+  registerSource:
+    subtitle: 注册来源
+    title: 注册来源
+  registers: 注册
+  revenueChart:
+    subtitle: 收入
+    title: 收入图表
+  sellChart:
+    title: 每日销售额和收入
+  sells: 销售
+  summary: 概要
+  transactions: 交易
+  trendingProducts: 热门产品
+  userPlatforms:
+    subtitle: 用户平台
+    title: 用户平台
+  visits: 访问
+  welcome:
+    congratulations1: 您的销量已达
+    congratulations2: 份。
+    greeting_message: 祝您有美好的一天！我们很高兴见到您。
+    title: 欢迎回来！
+forgot:
+  button: 恢复
+  email: 电子邮件
+  emailValidation: 电子邮件无效
+  haveNotAccount: 没有账户？
+  login: 登录
+  register: 创建一个！
+  rememberInfo: 记住密码？
+  resetPassword: 重置密码
+  sendEmailSuccess: 电子邮件发送成功，请检查您的电子邮件
+  title: 忘记密码
+  username: 用户名
+login:
+  identityLabel: 登录身份
+  identityUser: 用户（居民 / 志愿者）
+  identityAdmin: 管理员
+  createAccount: 创建一个！
+  failedMessage: 登录失败
+  forgetPassword: 忘记密码
+  haveNotAccount: 没有账户？
+  loginButton: 登录
+  message: 请在此登录以访问您的账户
+  password: 密码
+  rememberMe: 记住我
+  skipLogin: 跳过登录
+  successMessage: 登录成功 🎉
+  title: 登录
+  username: 用户名
+  validations:
+    passwordRequired: 密码必填
+    userNameRequired: 请输入用户名
+  welcome:
+    congratulations1: 您的销量已达
+    congratulations2: 份。
+    greeting_message: 祝您有美好的一天！我们很高兴见到您。
+    title: 欢迎回来！
+menu:
+  adminOpsGroup: 业务管理
+  adminSystemGroup: 系统管理
+  residentServicesGroup: 居民服务
+  volunteerServicesGroup: 志愿者服务
+  homeBoardAdmin: 管理中心
+  homeBoardVolunteer: 志愿看板
+  homeBoardResident: 我的社区
+  dashboard-home: 首页看板
+  appsTodo: 待办事项 App
+  accountSettings: 账户设置
+  superAdmin: 超级管理员
+  communityAdmin: 社区管理员
+  systemConfig: 系统配置管理
+  audit: 审核日志与审计
+  globalDashboard: 全局数据看板
+  backup: 数据导出与备份
+  communityRequests: 需求审核
+  communityRequestHistory: 历史需求
+  communityVolunteers: 志愿者管理
+  communityMonitor: 服务过程监控
+  communityAnnouncements: 信息发布与公告
+  communityInviteCodes: 社区邀请码
+  communityBanners: 社区轮播图
+  communityScopedUsers: 辖区用户管理
+  communityAudit: 辖区日志
+  userResident: 居民工作台
+  userVolunteer: 志愿者工作台
+  user-announcements: 社区公告
+  request-create: 发布服务需求
+  request-my: 我的需求进度
+  request-evaluations: 服务评价与反馈
+  service-market: 可认领服务列表
+  service-my-records: 我的服务记录
+  service-my-evaluations: 居民评价与反馈
+  admin-users: 用户与角色管理
+  admin-config: 系统配置管理
+  admin-audit: 系统日志
+  admin-global-dashboard: 全局数据看板
+  admin-dashboard: 管理员工作台
+  admin-backup: 数据导出与备份
+  super-admin-dashboard: 超级管理员控制台
+  analytics: 分析
+  announcement: 公告
+  apps: 应用程序
+  authentication: 验证
+  blog: 博客
+  brands: 品牌
+  categories: 分类
+  charts: 图表
+  chat: 聊天
+  colors: 颜色
+  comments: 评论
+  components: 组件
+  createProduct: 创建产品
+  customers: 客户
+  dashboard: 仪表板
+  data: 数据
+  eCommerce: 电子商务
+  error: 500错误
+  feedbacks: 反馈
+  forgetPassword: 忘记密码
+  forms: 表单
+  icons: 图标
+  login: 登录
+  maintenance: 维护
+  messages: 消息
+  news: 新闻
+  notFound: '404'
+  notifications: 通知
+  orders: 订单
+  other: 其他
+  pages: 页面
+  productManagement: 产品管理
+  products: 产品
+  productsManagement: 产品管理
+  profile: 轮廓
+  register: 注册
+  registerWelcome: 注册引导
+  reviews: 评论
+  settings: 设置
+  sms: 短信
+  support: 支持
+  todo: 待办事项
+  typography: 排版
+  users: 用户
+  websiteSettings: 网站设置
+notifications:
+  clear: 清除所有
+  empty: 没有通知
+  title: 通知
+  order: 订单
+  security: 安全
+  productStock: 产品库存
+  stats: 统计
+  orderSubmitted: 新订单已提交
+  passwordExpire: '您的密码将在 {count} 天后过期'
+  customerRegister: "昨天有 {count} 位新客户注册"
+  stockWarning: 产品库存不足
+  orderCanceled: 订单已取消
+notify:
+  welcome: 欢迎使用社区管理系统！
+orders:
+  customer: 客户名称
+  itemsCount: 项目数量
+products:
+  category: 分类
+  create:
+    barcode: 条形码
+    brand: 品牌
+    category: 分类
+    description: 描述
+    discountedPrice: 折扣价
+    imageName: 图片
+    inStock: 有库存
+    keywords: 关键词
+    media: 媒体
+    name: 产品名称
+    newKeyword: 新关键词
+    price: 价格
+    pricing: 定价
+    productInformation: 产品信息
+    sku: 库存单位
+    title: 创建产品
+  name: 名称
+  rate: 评分
+  stock: 库存
+  stoke: 库存
+profile:
+  changePassword: 更改密码
+  changePasswordFailed: 修改密码失败
+  changePasswordSuccess: 密码修改成功，请重新登录
+  confirmPassword: 确认密码
+  email: 电子邮件
+  firstName: 名
+  lastName: 姓
+  location: 位置
+  newPassword: 新密码
+  passwordNotMatch: 两次输入的新密码不一致
+  notificationType: 通知类型
+  notificationTypes:
+    newMessage: 新消息
+    newOrder: 新订单
+    newRegister: 新注册
+    outOfStock: 缺货
+  notifications: 通知
+  oldPassword: 旧密码
+  personalInfo: 个人信息
+  phone: 电话
+  push: 推送通知
+  save: 保存
+  edit: 编辑
+  cancelEdit: 取消
+  saveChanges: 保存更改
+  uploadAvatar: 上传头像
+  avatarLabel: 头像
+  realName: 真实姓名
+  readOnlyHint: 信息为只读展示，点击「编辑」后可修改并保存。
+  security: 安全
+  sms: 短信
+  title: 轮廓
+  username: 用户名
+  homeAddress: 家庭住址
+  gender: 性别
+  genderUnknown: 未知
+  genderMale: 男
+  genderFemale: 女
+  skillTags: 志愿者能力标签
+  skillTagsPlaceholder: 输入标签后按回车添加
+  skillPresetNursing: 护理
+  skillPresetRepair: 维修
+  skillPresetBath: 助浴
+  skillPresetCompanion: 陪伴
+  skillPresetOther: 其它
+  skillModalTitle: 添加能力标签
+  skillModalHint: 勾选预设能力；选择「其它」后可填写自定义内容。
+  skillOtherPlaceholder: 请输入自定义能力，如：法律咨询
+  skillModalConfirm: 确定添加
+role:
+  superAdmin: 超级管理员
+  communityAdmin: 社区管理员
+  volunteer: 志愿者
+  resident: 居民老人
+  unknown: 未知身份
+navInbox:
+  title: 消息通知
+  tabTodo: 待办通知
+  tabAnnouncement: 系统公告
+  emptyTodo: 暂无待办通知
+  emptyAnnouncement: 暂无公告通知
+  markReadTab: 本页已读
+register:
+  button: 注册
+  haveAccount: 已有账户？
+  login: 登录！
+  password: 密码
+  successMessage: 注册成功 🎉
+  title: 注册
+  username: 用户名
+  subtitle: 注册社区账号，大按钮、大字便于操作。
+  phone: 手机号
+  phoneRequired: 请填写手机号
+  phoneInvalid: 请输入正确的11位中国大陆手机号
+  phonePlaceholder: "11位数字，例如 13800138000"
+  realNameRequired: 请填写真实姓名
+  realName: 真实姓名
+  realNamePlaceholder: 与证件一致的姓名
+  confirmPassword: 确认密码
+  confirmPasswordRequired: 请再次输入密码
+  confirmPasswordMismatch: 两次输入的密码不一致
+  identityLabel: 您的身份
+  identityResident: 居民老人
+  identityResidentDesc: 发布与查看互助需求，完善住址便于服务对接。
+  identityVolunteer: 志愿者
+  identityVolunteerDesc: 注册后请在个人资料中填写能力标签，便于与需求匹配。
+  identityRequired: 请选择身份
+  failedMessage: 注册失败，请稍后重试或联系管理员。
+  loginAfterRegisterHint: 账号已创建，请手动登录。
+  adminAssistHint: "如无法操作，请联系社区管理员 138-0000-0000 辅助注册。"
+  gender: 性别
+  genderRequired: 请选择性别（用于默认头像）
+  genderMale: 男
+  genderFemale: 女
+  welcomeVolunteerTitle: 欢迎加入志愿者
+  welcomeVolunteerHint: 接下来请在「个人资料」中填写技能标签，方便系统为您匹配服务需求。
+  welcomeResidentTitle: 欢迎加入社区
+  welcomeResidentHint: 接下来请在「个人资料」中完善家庭住址，便于志愿者与您联系。
+  welcomeGoProfile: 前往个人资料
+reviews:
+  comment: 评论
+  customer: 客户
+  date: 日期
+  product: 产品
+  rate: 评分
+support:
+  buyMeCoffee:
+    title: 请我喝杯咖啡
+    tooltip: 购买一杯咖啡来支持这个项目。
+  github:
+    title: Github 星标
+    tooltip: 请在Github上给这个项目一个⭐️支持
+todoApp:
+  completed: 完全的
+  createGroup:
+    groupTitle: 群组标题
+    taskTitle: 任务标题
+    theme: 主题
+    title: 创建组
+  createTask: 创建新任务
+  today: 今天
+userMenu:
+  dark: 深色
+  en: 英语
+  fa: 波斯语
+  language: 语言
+  light: 浅色
+  logout: 退出
+  options: 选项
+  profile: 个人资料
+  signOut: 登出
+  theme: 主题
+charts:
+  loading: 正在加载图表数据...
+  notData: 暂无图表数据
+  unableToDisplay: 无法显示图表
+community:
+  super:
+    title: 超级管理员工作台
+    subtitle: 功能入口已整合至左侧边栏：「业务管理」与「系统管理」分组与设置类子目录一致。本页将后续改造为数据看板，集中展示平台运行指标。
+    placeholder: 数据看板内容开发中
+  dashboard:
+    title: 社区管理员工作台
+    intro: 您可以在此审核居民需求、管理志愿者及查看本社区的服务运行情况。
+    cardRequestsTitle: 需求审核
+    cardRequestsDesc: 审核居民发布的公益服务需求，进行通过或驳回，并标注紧急程度。
+    cardRequestsBtn: 进入需求审核
+    cardVolunteersTitle: 志愿者管理
+    cardVolunteersDesc: 审核志愿者注册信息与资质，匹配适合的服务领域。
+    cardVolunteersBtn: 进入志愿者管理
+    cardMonitorTitle: 服务过程监控
+    cardMonitorDesc: 关注本社区服务的超时未认领 / 未完成预警，必要时人工干预调度。
+    cardMonitorBtn: 查看服务列表
+    cardNewsTitle: 信息发布与公告
+    cardNewsDesc: 发布社区活动通知、政策宣导及紧急提醒，提升居民与志愿者参与度。
+    cardNewsBtn: 管理公告
+    cardStatsTitle: 统计报表（社区视角）
+    cardStatsDesc: 查看本社区的对接成功率、Top 志愿者及服务类型分布等关键指标。
+    cardStatsBtn: 查看社区数据
+    sectionSystemTitle: 系统管理与审计
+    cardUsersTitle: 用户与角色管理
+    cardUsersDesc: 查看和管理系统中的账号信息与角色分配（部分操作仅超级管理员可用）。
+    cardUsersBtn: 进入用户管理
+    cardAuditTitle: 审核日志与审计
+    cardAuditDesc: 查看本社区相关操作日志，协助定位异常行为与排查问题。
+    cardAuditBtn: 查看审计日志
+  users:
+    title: 用户与角色管理
+    subtitle: 支持账号查询、角色分配、启用/禁用、创建与逻辑删除。
+    addUser: 新增用户
+    searchUser: 按用户名搜索
+    role: 角色
+    status: 状态
+    query: 查询
+    reset: 重置
+    colUsername: 用户名
+    colRole: 角色
+    colIdentity: 身份
+    colRealName: 姓名
+    colPhone: 电话
+    colEmail: 邮箱
+    colStatus: 状态
+    colActions: 操作
+    roleSuper: 超级管理员
+    roleCommunity: 社区管理员
+    roleUser: 普通用户
+    identityResident: 居民老人
+    identityVolunteer: 志愿者
+    statusOn: 启用
+    statusOff: 禁用
+    edit: 编辑
+    delete: 删除
+    disable: 禁用
+    enable: 启用
+    createTitle: 新增用户
+    editTitle: 编辑用户 / 分配角色
+    initialPassword: 初始密码
+    address: 地址
+    cancel: 取消
+    save: 保存
+    userIdentity: 用户身份
+    roleRequired: 请选择角色
+    loadFailed: 加载失败
+    needPassword: 请输入初始密码
+    createOk: 创建成功
+    updateOk: 更新成功
+    deleteOk: 删除成功
+    confirmDeleteTitle: 确认删除
+    confirmDeleteBody: '确定删除用户「{name}」吗？（逻辑删除，可恢复需另做功能）'
+    deleteBtn: 删除
+    createFailed: 创建失败
+    updateFailed: 更新失败
+    deleteFailed: 删除失败
+  volunteers:
+    title: 志愿者管理
+    subtitle: 从用户表中筛选具备志愿者身份的账号，查看资质并进行通过/禁用操作。
+    searchUser: 按用户名搜索
+    auditStatus: 审核状态
+    all: 全部
+    pending: 待启用/已驳回
+    approved: 已通过
+    query: 查询
+    reset: 重置
+    colUsername: 用户名
+    colName: 姓名
+    colPhone: 电话
+    mobile: 手机
+    colEmail: 邮箱
+    colIdentity: 身份
+    colStatus: 状态
+    colActions: 操作
+    viewQual: 查看资质
+    pass: 通过
+    disable: 禁用
+    drawerTitle: 志愿者资质
+    loadFailed: 加载失败
+    approveTitle: 确认通过志愿者申请
+    approveBody: '确定通过志愿者「{name}」的申请吗？通过后可参与社区活动与服务。'
+    approveOk: 已通过志愿者申请
+    approveBtn: 通过
+    disableTitle: 确认禁用志愿者账号
+    disableBody: '确定禁用「{name}」的志愿者资格吗？禁用后不可再认领服务。'
+    disableOk: 已禁用志愿者账号
+    opFailed: 操作失败
+  monitor:
+    title: 服务过程监控（社区管理员）
+    subtitle: 实时关注本社区服务的进展情况，对超时未认领、超时未完成等风险进行干预。
+    riskUnclaimed: 超时未认领
+    riskIncomplete: 超时未完成
+    refresh: 刷新
+    currentTime: 当前时间
+    loadFailed: 加载失败
+    loadFailedRetry: 加载失败，请稍后重试
+    remindOk: 已触发提醒
+    remindFail: 提醒失败，请稍后重试
+    detailTitle: 需求详情
+    labelServiceType: 服务类型
+    labelAddress: 服务地址
+    labelExpected: 期望服务时间
+    labelUrgency: 紧急程度
+    labelRequester: 发起人
+    labelVolunteer: 认领志愿者
+    volunteerNone: 暂未认领
+    labelStatus: 当前状态
+    labelRule: 触发规则
+    labelAdvice: 建议动作
+    labelRisk: 风险类型
+    labelOvertime: 超时时长
+    labelRating: 居民评价
+    minutes: 分钟
+    stars: 星
+    noRating: 未评价
+    unknownRisk: 未知
+    colRequestId: 需求ID
+    colRisk: 风险类型
+    colRule: 触发规则
+    colAdvice: 建议动作
+    colServiceType: 服务类型
+    colAddress: 服务地址
+    colExpected: 期望时间
+    colOvertime: 超时时长
+    colUrgency: 紧急程度
+    colRequester: 发起人
+    colVolunteer: 志愿者
+    colRating: 评价
+    colActions: 操作
+    actionDetail: 详情
+    actionRemind: 一键提醒
+    urgencyLow: 低
+    urgencyMid: 中
+    urgencyHigh: 高
+    urgencyUrgent: 紧急
+  requests:
+    title: 需求审核
+    subtitle: 按状态筛选需求，查看详情并进行通过/驳回处理。
+    statusPlaceholder: 状态
+    urgencyPlaceholder: 紧急程度
+    query: 查询
+    reset: 重置
+    approveTitle: 确认通过审核
+    approveBody: '确定通过需求「{name}」吗？通过后将公开发布给志愿者认领。'
+    rejectReason: 请输入驳回原因
+    loadFailed: 加载失败
+    opFailed: 操作失败
+    approveOk: 审核通过
+    rejectOk: 已驳回
+    colServiceType: 服务类型
+    colResident: 居民
+    colAddress: 地址
+    colUrgency: 紧急程度
+    colStatus: 状态
+    colSubmitted: 提交时间
+    colActions: 操作
+    viewDetail: 查看详情
+    approve: 通过
+    reject: 驳回
+    statusPending: 待审核
+    statusPublished: 已发布
+    statusClaimed: 已认领
+    statusCompleted: 已完成
+    statusRejected: 已驳回
+    serviceTypePlaceholder: 服务类型
+    drawerTitle: 需求详情
+    labelServiceAddr: 服务地址
+    labelExpectedTime: 期望服务时间
+    specialTags: 特殊标签
+    description: 需求描述
+    rejectLabel: 驳回原因
+    approvePublish: 通过并发布
+    rejectModalTitle: 驳回需求
+    rejectPlaceholder: 请填写驳回原因（必填）
+    confirmReject: 确认驳回
+  requestHistory:
+    title: 历史需求记录
+    subtitle: 查已经处理过的需求，也能回看处理中记录。
+    tip: 默认先看已完成记录，需要时再切状态。
+    statusPlaceholder: 历史状态
+    communityPlaceholder: 所属社区
+    loadFailed: 历史记录加载失败
+    statusPublished: 已发布
+    statusClaimed: 已认领
+    statusCompleted: 已完成
+    statusRejected: 已驳回
+    colCommunity: 所属社区
+    colLatestProgress: 最近节点
+    drawerSubtitle: 需求流转与历史详情
+    labelCommunity: 所属社区
+    labelAuditor: 审核人
+    progressTitle: 流转节点
+    nodeCreated: 提交时间
+    nodeAudited: 审核时间
+    nodePublished: 发布时间
+    nodeClaimed: 认领时间
+    nodeCompleted: 完成时间
+    emptyDescription: 暂无描述
+  announcements:
+    title: 信息发布与公告（社区管理员）
+    subtitle: 发布社区活动通知、政策宣导以及紧急提醒，提升居民与志愿者的信息触达效率。
+    searchPlaceholder: 搜索标题关键词
+    scopePlaceholder: 推送范围
+    statusPlaceholder: 状态
+    topPlaceholder: 置顶
+    query: 查询
+    reset: 重置
+    newAnnouncement: 新建公告
+    loadFailed: 加载失败
+    editorCreate: 新建公告
+    editorEdit: 编辑公告
+    editorEditWithId: '编辑公告 {id}'
+    labelTitle: 标题
+    titlePlaceholder: 请输入公告标题
+    labelScope: 推送范围
+    labelCommunityId: 社区ID
+    labelBuildingId: 楼栋ID
+    labelStatus: 状态
+    labelTop: 置顶
+    draft: 草稿
+    published: 发布
+    contentRich: 内容（富文本）
+    richHint: 支持富文本编辑（图片可后续扩展为上传）。
+    preview: 预览
+    previewTitle: 公告预览
+    untitled: （未命名公告）
+    noContent: （暂无内容）
+    scopeAll: 全体
+    scopeCommunity: 指定社区
+    scopeBuilding: 指定楼栋
+    statusDraft: 草稿
+    statusPublished: 已发布
+    topYes: 置顶
+    topNo: 非置顶
+    tagTop: 置顶
+    colId: ID
+    colTitle: 标题
+    colScope: 范围
+    colStatus: 状态
+    colPublisher: 发布人
+    colPublishedAt: 发布时间
+    colActions: 操作
+    actionPreview: 预览
+    actionEdit: 编辑
+    actionTop: 置顶
+    actionUntop: 取消置顶
+    actionDelete: 删除
+    ruleTitle: 请输入标题
+    ruleContent: 请输入内容
+    ruleScope: 请选择推送范围
+    ruleCommunityId: 请输入社区ID
+    ruleBuildingId: 请输入楼栋ID
+    saveFailed: 保存失败
+    saveOk: 保存成功
+    deleteTitle: 确认删除
+    deleteBody: '确定删除公告「{name}」吗？此操作不可恢复。'
+    topOk: 已置顶
+    untopOk: 已取消置顶
+    deleteOk: 已删除
+    deleteFailed: 删除失败
+    metaScope: 范围
+    metaStatus: 状态
+    metaPublisher: 发布人
+    metaTime: 发布时间
+    metaPreviewRow: '范围：{scope}；状态：{status}；发布人：{publisher}；发布时间：{time}'
+    metaPreviewForm: '范围：{scope}；状态：{status}'
+    opFailed: 操作失败
+    btnCancel: 取消
+    btnSave: 保存
+    btnTestAi: 测试连通
+  audit:
+    title: 审核日志与审计
+    subtitle: 查看全系统操作日志，按操作人、时间范围、模块筛选，支持异常行为追溯。
+    modUserManage: 用户与角色管理
+    modSystemConfig: 系统配置
+    modRequestAudit: 需求审核
+    modVolunteerAudit: 志愿者审核
+    modServiceFlow: 服务流程
+    modDataExport: 数据导出
+    modAuth: 登录/安全
+    resultSuccess: 成功
+    resultFail: 失败
+    riskNormal: 一般
+    riskWarn: 告警
+    riskHigh: 高危
+    noData: 暂无审计数据，请待后端接入后查看
+    networkError: 审计接口未就绪或网络异常，请待后端接入后重试
+    colTime: 时间
+    colOperator: 操作人
+    colModule: 模块
+    colAction: 操作
+    colResult: 结果
+    colRisk: 风险
+    colActions: 操作
+    viewDetail: 查看详情
+    cardTodayCount: 当前页今日条数
+    cardTodayHint: 本页结果中今日产生的日志数
+    cardTodayFailed: 当前页今日失败
+    cardTodayFailedHint: 本页中今日失败的操作
+    cardTodayHigh: 当前页今日高危
+    cardTodayHighHint: 本页中今日高危等级
+    cardLastHighTitle: 本页最近高危时间
+    cardLastHighHint: 本页结果中最近一条高危操作时间
+    timeRange: 时间范围
+    startTime: 开始
+    endTime: 结束
+    placeholderUsername: 操作人用户名
+    placeholderRole: 角色
+    placeholderModule: 模块
+    placeholderResult: 结果
+    placeholderRisk: 风险等级
+    detailTitle: 审计日志详情
+    labelOperatorSlashRole: 操作人 / 角色
+    labelModuleSlashAction: 模块 / 操作
+    labelRequestPath: 请求路径
+    labelElapsed: 耗时
+    all: 全部
+  backup:
+    title: 数据导出与备份
+    exportOk: 导出成功
+    exportFail: 导出失败
+    backupFail: 备份失败
+    backupOk: 备份完成
+    saveFail: 保存失败
+    saveOk: 保存成功
+    selectFileFirst: 请先选择备份文件
+    fileNotFound: 未找到可上传的文件
+    restoreTitle: 确认恢复数据库
+    restoreBody: 恢复将覆盖当前数据，建议先执行一次备份。确认继续？
+    restoreConfirm: 确认恢复
+    restoreFail: 恢复失败
+    restoreSubmitted: 恢复任务已提交
+    deleteTitle: 确认删除备份
+    deleteBody: '确定删除备份文件「{name}」吗？'
+    deleteOk: 删除成功
+    downloadFail: 下载失败
+    loadFailed: 加载失败
+    moduleRequest: 需求数据
+    moduleUsers: 用户数据
+    moduleAudit: 审计日志
+    scheduleDaily: 每日
+    scheduleWeekly: 每周
+    scheduleMonthly: 每月
+    statusSuccess: 成功
+    statusFailed: 失败
+    statusRunning: 进行中
+    colFilename: 文件名
+    colStatus: 状态
+    colSize: 大小
+    colCreated: 创建时间
+    colId: ID
+    colNote: 备注
+    subtitle: 高风险操作：导出、备份与恢复。建议仅限超级管理员使用，操作前请确认。
+    alertWarn: 恢复操作会覆盖现有数据；生产环境建议先做一次手动备份，并在低峰期执行。
+    cardExport: 数据导出
+    cardDbBackup: 数据库备份
+    cardRestore: 备份恢复
+    cardHistory: 备份历史记录
+    placeholderModule: 选择导出模块
+    placeholderFormat: 导出格式
+    timeRangeOptional: 时间范围（可选）
+    btnExport: 开始导出
+    btnClearTime: 清空时间
+    exportHint: 说明：导出范围可按时间筛选；后续可扩展为「按社区/服务类型」等更细颗粒度条件。
+    manualBackupTitle: 手动备份
+    manualBackupDesc: 立即生成一份数据库备份文件，用于灾备恢复。
+    btnBackupNow: 立即备份
+    scheduleTitle: 定时自动备份
+    keepPrefix: 保留
+    keepSuffix: 天
+    btnSaveSchedule: 保存计划
+    chooseFile: 选择备份文件
+    restoreHint: 支持上传 `.sql` / `.gz` / `.zip` 备份文件（后端接入后将进行校验）。
+    btnRestore: 恢复数据库
+    historyFooterHint: 备注：当前页面为前端演示版本；接入后端后将展示真实备份记录与下载/恢复能力。
+    btnDownload: 下载
+    btnDelete: 删除
+    deleteFail: 删除失败
+  systemConfig:
+    title: 系统配置管理
+    subtitle: 集中管理平台级参数：基础参数、通知模板、预警规则，仅超级管理员可修改。
+    loadFailed: 加载配置失败，请检查网络或稍后重试
+    saveFailed: 保存失败
+    saveOkBasic: 基础参数保存成功
+    saveOkNotice: 通知模板保存成功
+    saveOkAlert: 预警规则保存成功
+    saveOkAi: AI 配置保存成功
+    btnSave: 保存
+    collapseBasic: 一、基础参数
+    collapseNotice: 二、通知模板
+    collapseAlert: 三、预警规则
+    collapseAi: 四、AI 配置
+    cardBusiness: 业务规则
+    cardCompliance: 合规风控
+    cardA11y: 数字无障碍
+    cardTimeout: 超时预警
+    cardKpi: 核心理标预警
+    cardCredit: 居民信用与冻结
+    cardAnomaly: 异常预警创新规则
+    cardAi: AI 对话服务
+    aiEnabled: 启用 AI 对话
+    aiEnabledHint: 关闭时将使用内置 FAQ 回退，不会调用外部模型。
+    aiBaseUrl: 模型 Base URL
+    aiBaseUrlHint: 兼容 OpenAI 风格接口（/chat/completions）。
+    aiModel: 模型名称
+    aiModelHint: 例如 deepseek-v4-flash / deepseek-v4-pro 等。
+    aiApiKey: API Key（可选）
+    aiApiKeyPh: 留空表示不修改；填写则更新
+    aiApiKeyHint: 出于安全考虑，页面不会展示旧 key；如需更新请重新输入。
+    aiKeyConfigured: 已配置 Key
+    aiKeyMissing: 未配置 Key
+    aiTestOk: '连通成功：{status}，耗时 {ms}ms'
+    aiTestFail: '连通失败：{status}，{err}'
+    pointsPerHour: 积分换算（每小时服务）
+    pointsPerHourHint: 服务1小时兑换积分，用于社区食堂、家政抵扣等
+    demandClassifyHours: 需求分类标注时效（小时）
+    demandClassifyHoursHint: 社区管理员对待处理诉求的响应时限
+    feedbackDays: 满意度回访时效（天）
+    feedbackDaysHint: 服务结束后完成居民满意度回访的期限
+    requireVideoWitness: 首次对接须视频见证
+    requireVideoWitnessHint: 居民与志愿者首次对接须经社区管理员视频见证
+    requireSmsVerify: 敏感操作二次短信验证
+    requireSmsVerifyHint: 修改服务时间、取消订单等需二次短信验证
+    requireDoubleSign: 高风险项目人工复核双签
+    requireDoubleSignHint: 未成年人服务、医疗辅助类等需人工复核与双签
+    enableVoiceInput: 启用语音输入
+    enableLargeText: 启用大字模式
+    enablePhoneBooking: 电话预约与社区代办通道
+    noticePlaceholderHint: '支持占位符：{code} 验证码、{title} 需求标题、{reason} 驳回原因'
+    tplSmsVerify: 短信验证码模板
+    phSmsVerify: 验证码短信内容
+    tplDemandApproved: 需求审核通过模板
+    phDemandApproved: 需求通过通知
+    tplDemandRejected: 需求审核驳回模板
+    phDemandRejected: 需求驳回通知
+    tplVolunteerApproved: 志愿者审核通过模板
+    phVolunteerApproved: 志愿者通过通知
+    tplVolunteerRejected: 志愿者审核驳回模板
+    phVolunteerRejected: 志愿者驳回通知
+    tplDemandMatched: 需求匹配志愿者模板
+    phDemandMatched: 匹配成功通知
+    demandUnclaimedHours: 需求超时未认领（小时）
+    demandUnclaimedHoursHint: 超时未认领触发社区管理员人工调度
+    serviceUnfinishedHours: 服务超时未完成（小时）
+    serviceUnfinishedHoursHint: 超时未完成触发预警与干预
+    enableUnclaimedAlert: 启用未认领预警
+    enableUnfinishedAlert: 启用未完成预警
+    fulfillmentRateThreshold: 履约率预警线（低于该比例触发）
+    fulfillmentRateHint: 如 0.8 表示履约率低于 80% 时预警
+    complaintRateThreshold: 投诉率预警线（高于该比例触发）
+    complaintRateHint: 如 0.05 表示投诉率高于 5% 时预警
+    enableFulfillmentAlert: 启用履约率预警
+    enableComplaintAlert: 启用投诉率预警
+    noShowFreezeCount: 爽约次数触发服务冻结
+    noShowFreezeHint: 居民恶意爽约达此次数后，触发服务冻结（双向互评机制）
+    careInactivityDays: 重点人群未登录预警天数
+    careInactivityDaysHint: 连续未登录达到该天数后触发主动关怀预警
+    surge24hMinRequests: 24小时求助骤增最小阈值
+    surge24hMinRequestsHint: 当天求助量达到该值且超过倍数阈值时触发
+    surgeMultiplier: 求助骤增倍数阈值
+    surgeMultiplierHint: 相对近7天日均值的倍数（例如 2.0）
+  globalDashboard:
+    title: 全局数据看板
+    subtitle: 从全局视角查看社区需求对接率、服务覆盖率与区域服务热度。
+    refresh: 刷新
+    loadStatsFail: 加载统计数据失败
+    loadFail: 加载全局数据看板失败
+    kpiMatchRate: 全社区需求对接率
+    kpiMatchRateDesc: 已完成需求数 / 总需求数
+    kpiMatchDetail: '已完成：{completed}，总需求：{total}'
+    kpiCoverage: 志愿服务覆盖率
+    kpiCoverageDesc: 活跃志愿者数 / 有效志愿者总数
+    kpiActiveVol: '活跃志愿者：{n}'
+    kpiTotalReq: 总需求与完成数
+    kpiTotalLabel: 总需求数
+    kpiCompletedLine: '已完成：{n}'
+    kpiPending: '待审核：{n}'
+    kpiHours: 累计服务时长（小时）
+    kpiHoursDesc: 所有已完成服务记录累加的时长
+    chartMatchShare: 需求对接情况占比
+    chartNoData: 暂无需求数据。
+    chartMonthly: 本月需求流转（新增 vs 完成）
+    chartMonthlyNoData: 暂无本月统计数据。
+    chartHeatmap: 服务区域热力图
+    heatmapHint: 根据已完成服务按省级行政区统计热度（中国地图），数据会随业务记录实时更新。
+    legendMatched: 已对接
+    legendUnmatched: 未对接
+    seriesNew: 本月新增
+    seriesDone: 本月完成
+    seriesRequests: 需求数
+  unifiedDashboard:
+    pageTitle: 首页看板
+    pageSubtitle: 根据您的角色展示关键指标与待办。
+    loadFail: 加载看板失败
+    noData: 暂无可展示的数据
+    empty: 暂无数据
+    kpiVolunteers: 活跃志愿者（全库）
+    kpiVolunteersHint: 至少完成过一次服务的志愿者人数
+    kpiHours: 累计服务时长（小时）
+    kpiHoursHint: 已完成认领记录的服务时长合计
+    kpiPending: 待审核需求
+    kpiPendingHint: 等待社区审核的需求条数
+    kpiCompleted: 已完成需求
+    kpiCompletedHint: 全流程已完成的需求条数
+    sectionDemandMix: 需求类型分布
+    sectionFund: 资金 / 物资流动监控
+    fundIn: 资金流入
+    fundOut: 资金流出
+    matIn: 物资流入
+    matOut: 物资流出
+    sectionSchedule: 近期服务排期（期望时间在未来）
+    colType: 服务类型
+    colTime: 期望时间
+    colAddr: 地址
+    communityScopeNote: 当前数据已按您绑定的社区维度统计（跨社区功能除外）。
+    kpiActiveUsers: 活跃志愿者
+    kpiActiveUsersHint: 本辖区视角（演示数据与全库一致）
+    kpiPendingAudit: 待审核申请
+    kpiPendingAuditHint: 待审核需求条数
+    kpiMonthlyNew: 本月新增需求
+    kpiMonthlyNewHint: 本月创建的需求数
+    kpiMonthlyDone: 本月完成需求
+    kpiMonthlyDoneHint: 本月标记完成的需求数
+    volHours: 累计服务时长
+    volPending: 待完成任务（认领未完结）
+    volDone: 已完成服务
+    volRating: 平均评分
+    volRatingHint: 基于 {n} 条居民评价
+    volProjects: 近期参与项目（服务类型）
+    volHonor: 荣誉与排名
+    resPending: 待审核
+    resPublished: 已发布
+    resClaimed: 已认领
+    resCompleted: 已完成
+    resRejected: 已驳回
+    resEvalCount: 我给出的评价
+    resEvalHint: 您对志愿者服务的评价条数
+    resAnnouncements: 社区公告简报

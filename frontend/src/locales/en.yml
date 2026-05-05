@@ -1,0 +1,1048 @@
+title: Community Service Platform
+description: Community public welfare service coordination platform
+direction: ltr
+currencySign: $
+home: Home
+not-found: Not found
+announcementWelcome:
+  fallbackTitle: Community announcement
+  publishedAt: Published at
+  viewAll: All announcements
+  gotIt: Got it
+  dontShowToday: Don't show again today
+  empty: No content
+  close: Close
+languages:
+  ar: Arabic
+  zn: Chinese
+  de: German
+  en: English
+  fa: Persian
+  tr: Turkish
+enums:
+  OrderStatus:
+    Delivered: Delivered
+    Processing: Processing
+    ReadyToSend: ReadyToSend
+    Sent: Sent
+    Submitted: Submitted
+  ProductStatus:
+    Active: Active
+    Draft: Draft
+    NotActive: NotActive
+common:
+  403Error: You have not Permission to access
+  404Error: 404 Error
+  404Message: >-
+    Sorry but the page you are looking for does not exist, have been removed.
+    name changed or is temporarily unavailable
+  500Error: 500 Error
+  500Message: >-
+    Something went wrong. Please try again later or contact the administrator if
+    the problem persists.
+  actions: Actions
+  cancel: Cancel
+  confirm: Confirm
+  create: Create
+  currency: USD
+  date: Date
+  day: Day
+  delete: Delete
+  deleteConfirm: Are you sure to delete this item?
+  deleteMultipleConfirm: Are you sure to delete selected items?
+  deletedMessage: Deleted Successfully
+  goHome: Back To Home
+  locale: en-US
+  maintenance: Website in under maintenance
+  maintenanceDetail: >-
+    We are currently performing scheduled maintenance. We will be back online
+    shortly!
+  month: Month
+  name: Name
+  new: New
+  notFound: Not Found
+  oops: Oops Page
+  price: Price
+  search: Search
+  status: Status
+  week: Week
+  refresh: Refresh
+  settings: Settings
+  perPage: per page
+  filter: Filter
+  clearFilter: Clear Filters
+
+brands:
+  brand: Brand
+  create:
+    brandName: Name
+    buttonTitle: Create
+    image: Image
+    title: Create New Brand
+    url: Url
+  createButton: Create
+  name: Brand
+  shortName: Short Name
+  title: Brands
+  validations:
+    image: Image is required
+    name: Name is required
+    url: Url is required
+button:
+  about: About
+  back: Back
+  go: GO
+  home: Home
+  notifications: Notifications
+  toggle_dark: Toggle dark mode
+  toggle_fullscreen: Toggle Full Screen
+  toggle_langs: Change languages
+  toggle_notifications: Notifications
+  toggle_customize: Customize
+charts:
+  loading: Loading chart data...
+  notData: No chart data available
+  unableToDisplay: Unable to display chart
+categories:
+  count: Count
+  create:
+    buttonTitle: Create
+    categoryName: Name
+    parent: Parent
+    title: Create New Category
+  createButton: Create
+  createdSucceed: Created Successfully
+  stat: Statistics
+  title: Categories
+  topCategories: Top Categories
+  validations:
+    nameRequired: Name is required
+    parentRequired: Parent Not Selected
+category:
+  name: Category
+  productsCount: Products Count
+chatApp:
+  call: Call
+  writeMessage: Write Message
+colors:
+  color: Color
+  create:
+    buttonTitle: Create
+    color: Color
+    name: Name
+    title: Create New Color
+  createButton: Create
+  name: Name
+  title: Colors
+  validations:
+    colorRequired: Color not selected
+    nameRequired: Name is required
+  deleteMessage: Color deleted successfully!
+  createMessage: New color was added successfully!
+customers:
+  customerName: Customer Name
+  email: Email
+  joinDate: Join Date
+  ordersCount: Orders Count
+  phone: Phone
+  title: Customers
+  points: Points
+  userGroup: UserGroup
+customize:
+  color: Color
+  flatDesign: Flat Design
+  fluid: Fluid Layout
+  language: Language
+  layout: Layout
+  rtl: RTL Layout
+  theme: Theme
+  title: Customize
+dashboard:
+  activeOrders: Active Orders
+  genderChart:
+    title: "Customer's Gender"
+  locationChart:
+    title: "Customer's Location"
+  monthlySell: Monthly Sell
+  recentOrders: Recent Orders
+  registerSource:
+    subtitle: Total Registers
+    title: Register Source
+  revenueChart:
+    subtitle: Total Revenue balance
+    title: Revenue Chart
+  sellChart:
+    title: Daily Sell and Revenue
+  summary: Summary
+  transactions: Transactions
+  trendingProducts: Trending Products
+  userPlatforms:
+    subtitle: Total Users
+    title: User Platforms
+  welcome:
+    congratulations1: You reached to
+    congratulations2: sales.
+    greeting_message: Have a nice day! We are happy to see you here.
+    title: Welcome to Yummy Admin
+analyticsDashboard:
+  visitors: Visitors
+  visits: Visits
+  views: Views
+  bounceRate: Bounce Rate
+  summary: Summary
+  pages: Pages
+  source: Source
+forgot:
+  button: Recover
+  email: Email
+  emailValidation: Email is not valid
+  haveNotAccount: "Haven't Account?"
+  login: Login
+  register: Create One!
+  rememberInfo: Remembered Password?
+  resetPassword: Reset Password
+  sendEmailSuccess: Email Sent Successfully, Please Check Your Email
+  title: Forgot Password
+  username: User Name
+login:
+  identityLabel: Sign-in as
+  identityUser: Resident / volunteer
+  identityAdmin: Administrator
+  createAccount: Create One!
+  failedMessage: Login Failed
+  forgetPassword: Forget Password
+  haveNotAccount: "Don't have an account?"
+  loginButton: Login
+  message: To access to your account please login here
+  password: Password
+  rememberMe: Remember Me
+  skipLogin: Skip Login
+  successMessage: Logged In Successfully 🎉
+  title: Login
+  username: User Name
+  validations:
+    passwordRequired: Password is required
+    userNameRequired: Enter username
+  welcome: Welcome Back!
+  loginUsing: Login Using
+menu:
+  adminOpsGroup: Operations
+  adminSystemGroup: System Administration
+  residentServicesGroup: Resident Services
+  volunteerServicesGroup: Volunteer Services
+  homeBoardAdmin: Admin hub
+  homeBoardVolunteer: Volunteer board
+  homeBoardResident: My community
+  dashboard-home: Home dashboard
+  appsTodo: Todo App
+  superAdmin: Super Admin
+  communityAdmin: Community Admin
+  systemConfig: System Configuration
+  audit: Audit Log
+  globalDashboard: Global Dashboard
+  backup: Export & Backup
+  communityRequests: Request Review
+  communityRequestHistory: Request History
+  communityVolunteers: Volunteer Applications
+  communityMonitor: Service Monitoring
+  communityAnnouncements: Announcements
+  communityInviteCodes: Community Invite Codes
+  communityBanners: Community Banners
+  communityScopedUsers: Community Users
+  communityAudit: Community Log
+  userResident: Resident Workspace
+  userVolunteer: Volunteer Workspace
+  user-announcements: Community Announcements
+  request-create: Create Service Request
+  request-my: My Requests
+  request-evaluations: Evaluations & Feedback
+  service-market: Available Services
+  service-my-records: My Service Records
+  service-my-evaluations: Resident Feedback
+  admin-users: Users & Roles
+  admin-config: System Configuration
+  admin-audit: System Log
+  admin-global-dashboard: Global Data & Matching
+  admin-dashboard: Admin Workspace
+  admin-backup: Export & Backup
+  super-admin-dashboard: Super Admin Console
+  accountSettings: Account Settings
+  analytics: Analytics
+  announcement: Announcement
+  apps: Applications
+  otherApps: Other Apps
+  authentication: Authentication
+  blog: Blog
+  brands: Brands
+  categories: Categories
+  chat: Chat
+  colors: Colors
+  comments: Comments
+  createProduct: Create Product
+  customers: Customers
+  dashboard: Dashboard
+  eCommerce: eCommerce
+  error: Error Page
+  feedbacks: Feedbacks
+  forgetPassword: Forget Password
+  login: Login
+  maintenance: Maintenance
+  messages: Messages
+  news: News
+  notFound: 404 Not Found
+  notifications: Notifications
+  orders: Orders
+  other: Other
+  pages: Pages
+  productManagement: Products Management
+  products: Products
+  productsManagement: Products Management
+  profile: Profile
+  register: Register
+  registerWelcome: Getting started
+  reviews: Reviews
+  settings: Settings
+  sms: Sms
+  support: Support
+  todo: ToDo
+  users: Users
+  websiteSettings: Website Settings
+  components: Components
+  charts: Charts
+  forms: Forms
+  data: Data Tables
+  typography: Typography
+  icons: Icons
+notifications:
+  clear: Clear All
+  empty: No notifications
+  title: Notifications
+  order: Order
+  security: Security
+  productStock: Product Stock
+  stats: Stats
+  orderSubmitted: New Order Submitted
+  passwordExpire: 'Your password will expires in {count} days'
+  customerRegister: "{count} New Customers registered yesterday"
+  stockWarning: Product stock is getting low
+  orderCanceled: An order was canceled
+notify:
+  welcome: >-
+    Welcome to Yummy Admin! Free Admin Panel based on NaiveUI and Vue3, please
+    Support this project by giving a star ⭐️ on GitHub
+orders:
+  customer: Customer
+  itemsCount: Items Count
+products:
+  category: Category
+  create:
+    barcode: Barcode
+    brand: Brand
+    category: Category
+    description: Description
+    discountedPrice: Discounted Price
+    imageName: Image
+    inStock: InStock
+    keywords: Keywords
+    media: Media
+    name: Product Name
+    newKeyword: New Keyword
+    price: Price
+    pricing: Pricing
+    productInformation: Product Information
+    sku: SKU
+    title: Create Product
+  name: Product Name
+  rate: Rate
+  stock: stock
+  stoke: Stoke
+  deleteMessage: Product was deleted!
+profile:
+  changePassword: Change Password
+  confirmPassword: Confirm Password
+  email: Email
+  firstName: First Name
+  lastName: Last Name
+  location: Location
+  newPassword: New Password
+  notificationType: Notification Type
+  notificationTypes:
+    newMessage: New Message
+    newOrder: New Order
+    newRegister: New Register
+    outOfStock: Out Of Stock
+  notifications: Notifications
+  oldPassword: Old Password
+  personalInfo: Personal Info
+  phone: Phone
+  push: Push
+  save: Save
+  edit: Edit
+  cancelEdit: Cancel
+  saveChanges: Save changes
+  uploadAvatar: Upload avatar
+  avatarLabel: Avatar
+  realName: Full name
+  readOnlyHint: Information is read-only. Click Edit to change and save.
+  security: Security
+  sms: Sms
+  title: Profile
+  username: UserName
+  homeAddress: Home address
+  gender: Gender
+  genderUnknown: Prefer not to say
+  genderMale: Male
+  genderFemale: Female
+  skillTags: Volunteer skills
+  skillTagsPlaceholder: Type a skill and press Enter
+  skillPresetNursing: Nursing care
+  skillPresetRepair: Repair
+  skillPresetBath: Bath assist
+  skillPresetCompanion: Companionship
+  skillPresetOther: Other
+  skillModalTitle: Add skill tag
+  skillModalHint: Choose presets below; if you pick “Other”, enter a custom skill.
+  skillOtherPlaceholder: e.g. Legal consulting
+  skillModalConfirm: Add
+role:
+  superAdmin: Super admin
+  communityAdmin: Community admin
+  volunteer: Volunteer
+  resident: Resident
+  unknown: Unknown role
+navInbox:
+  title: Notifications
+  tabTodo: Action items
+  tabAnnouncement: Announcements
+  emptyTodo: No action items
+  emptyAnnouncement: No announcements
+  markReadTab: Mark tab read
+register:
+  button: Register
+  haveAccount: Have Account?
+  login: Login!
+  password: Password
+  successMessage: Registered Successfully 🎉
+  title: Register
+  username: User Name
+  subtitle: Create your community account — large controls for easier use.
+  phone: Mobile number
+  phoneRequired: Mobile number is required
+  phoneInvalid: Enter a valid mainland China mobile number
+  phonePlaceholder: "11 digits, e.g. 13800138000"
+  realNameRequired: Full name is required
+  realName: Full name
+  realNamePlaceholder: Your legal name
+  confirmPassword: Confirm password
+  confirmPasswordRequired: Please confirm your password
+  confirmPasswordMismatch: Passwords do not match
+  identityLabel: Your role
+  identityResident: Resident (senior)
+  identityResidentDesc: Request help and manage your household address for matching.
+  identityVolunteer: Volunteer
+  identityVolunteerDesc: After signing up, add your skill tags in profile for better matching.
+  identityRequired: Please choose a role
+  failedMessage: Registration failed. Please try again or contact support.
+  loginAfterRegisterHint: Account created. Please sign in manually.
+  adminAssistHint: "If you need help registering, contact your community administrator: 138-0000-0000."
+  gender: Gender
+  genderRequired: Please choose gender (for default avatar)
+  genderMale: Male
+  genderFemale: Female
+  welcomeVolunteerTitle: Welcome, volunteer!
+  welcomeVolunteerHint: Next, open your profile and add skill tags so we can match you with residents.
+  welcomeResidentTitle: Welcome, resident!
+  welcomeResidentHint: Next, open your profile and complete your home address so services can reach you.
+  welcomeGoProfile: Open profile
+reviews:
+  comment: Comment
+  customer: Customer
+  date: Date
+  product: Product
+  rate: Rate
+community:
+  super:
+    title: Super Admin Workspace
+    subtitle: >-
+      Use the sidebar for Operations and System Administration (same collapsible pattern as Settings).
+      This page will become a data dashboard for platform metrics.
+    placeholder: Dashboard under construction
+  dashboard:
+    title: Community Admin Workspace
+    intro: Review resident requests, manage volunteers, and monitor local services.
+    cardRequestsTitle: Request review
+    cardRequestsDesc: Review public service requests submitted by residents—approve, reject, or set urgency.
+    cardRequestsBtn: Open request review
+    cardVolunteersTitle: Volunteer applications
+    cardVolunteersDesc: Review volunteer registrations and skills to match service areas.
+    cardVolunteersBtn: Open volunteer management
+    cardMonitorTitle: Service monitoring
+    cardMonitorDesc: Track unclaimed or overdue services and intervene when needed.
+    cardMonitorBtn: View services
+    cardNewsTitle: Announcements
+    cardNewsDesc: Publish notices, policies, and alerts for residents and volunteers.
+    cardNewsBtn: Manage announcements
+    cardStatsTitle: Community statistics
+    cardStatsDesc: View match rates, top volunteers, and service mix for your community.
+    cardStatsBtn: Open statistics
+    sectionSystemTitle: System & audit
+    cardUsersTitle: Users & roles
+    cardUsersDesc: Manage accounts and roles (some actions may be super-admin only).
+    cardUsersBtn: Open user management
+    cardAuditTitle: Audit log
+    cardAuditDesc: Review operation logs for troubleshooting and compliance.
+    cardAuditBtn: Open audit log
+  users:
+    title: Users & roles
+    subtitle: Search accounts, assign roles, enable or disable users, create accounts, and soft-delete.
+    addUser: Add user
+    searchUser: Search by username
+    role: Role
+    status: Status
+    query: Search
+    reset: Reset
+    colUsername: Username
+    colRole: Role
+    colIdentity: Identity
+    colRealName: Full name
+    colPhone: Phone
+    colEmail: Email
+    colStatus: Status
+    colActions: Actions
+    roleSuper: Super admin
+    roleCommunity: Community admin
+    roleUser: End user
+    identityResident: Resident (elder)
+    identityVolunteer: Volunteer
+    statusOn: Enabled
+    statusOff: Disabled
+    edit: Edit
+    delete: Delete
+    disable: Disable
+    enable: Enable
+    createTitle: New user
+    editTitle: Edit user / assign role
+    initialPassword: Initial password
+    address: Address
+    cancel: Cancel
+    save: Save
+    userIdentity: User identity
+    roleRequired: Please select a role
+    loadFailed: Failed to load
+    needPassword: Please enter an initial password
+    createOk: Created successfully
+    updateOk: Updated successfully
+    deleteOk: Deleted successfully
+    confirmDeleteTitle: Confirm delete
+    confirmDeleteBody: 'Delete user "{name}"? (Soft delete; restore is not implemented.)'
+    deleteBtn: Delete
+    createFailed: Create failed
+    updateFailed: Update failed
+    deleteFailed: Delete failed
+  volunteers:
+    title: Volunteer applications
+    subtitle: Filter volunteer accounts, review qualifications, and approve or disable.
+    searchUser: Search by username
+    auditStatus: Review status
+    all: All
+    pending: Pending / rejected
+    approved: Approved
+    query: Search
+    reset: Reset
+    colUsername: Username
+    colName: Full name
+    colPhone: Phone
+    mobile: Mobile
+    colEmail: Email
+    colIdentity: Identity
+    colStatus: Status
+    colActions: Actions
+    viewQual: View profile
+    pass: Approve
+    disable: Disable
+    drawerTitle: Volunteer profile
+    loadFailed: Failed to load
+    approveTitle: Approve volunteer
+    approveBody: 'Approve volunteer "{name}"? They can then accept community tasks.'
+    approveOk: Volunteer approved
+    approveBtn: Approve
+    disableTitle: Disable volunteer account
+    disableBody: 'Disable volunteer "{name}"? They will no longer be able to claim services.'
+    disableOk: Volunteer account disabled
+    opFailed: Operation failed
+  monitor:
+    title: Service monitoring (community admin)
+    subtitle: Track service progress and intervene on unclaimed or overdue risks.
+    riskUnclaimed: Overdue unclaimed
+    riskIncomplete: Overdue incomplete
+    refresh: Refresh
+    currentTime: 'Current time'
+    loadFailed: Failed to load
+    loadFailedRetry: Failed to load. Please try again later.
+    remindOk: Reminder sent
+    remindFail: Reminder failed. Please try again later.
+    detailTitle: Request detail
+    labelServiceType: Service type
+    labelAddress: Address
+    labelExpected: Expected time
+    labelUrgency: Urgency
+    labelRequester: Requester
+    labelVolunteer: Volunteer
+    volunteerNone: Not claimed yet
+    labelStatus: Status
+    labelRule: Trigger rule
+    labelAdvice: Suggested action
+    labelRisk: Risk type
+    labelOvertime: Overtime
+    labelRating: Resident rating
+    minutes: min
+    stars: stars
+    noRating: No rating
+    unknownRisk: Unknown
+    colRequestId: Request ID
+    colRisk: Risk
+    colRule: Trigger rule
+    colAdvice: Suggested action
+    colServiceType: Service type
+    colAddress: Address
+    colExpected: Expected
+    colOvertime: Overtime
+    colUrgency: Urgency
+    colRequester: Requester
+    colVolunteer: Volunteer
+    colRating: Rating
+    colActions: Actions
+    actionDetail: Detail
+    actionRemind: Send reminder
+    urgencyLow: Low
+    urgencyMid: Medium
+    urgencyHigh: High
+    urgencyUrgent: Urgent
+  requests:
+    title: Request review
+    subtitle: Filter by status, open details, approve or reject.
+    statusPlaceholder: Status
+    urgencyPlaceholder: Urgency
+    query: Search
+    reset: Reset
+    approveTitle: Approve request
+    approveBody: 'Approve request "{name}"? It will be published for volunteers.'
+    rejectReason: Please enter rejection reason
+    loadFailed: Failed to load
+    opFailed: Operation failed
+    approveOk: Approved
+    rejectOk: Rejected
+    colServiceType: Service type
+    colResident: Resident
+    colAddress: Address
+    colUrgency: Urgency
+    colStatus: Status
+    colSubmitted: Submitted at
+    colActions: Actions
+    viewDetail: Details
+    approve: Approve
+    reject: Reject
+    statusPending: Pending
+    statusPublished: Published
+    statusClaimed: Claimed
+    statusCompleted: Completed
+    statusRejected: Rejected
+    serviceTypePlaceholder: Service type
+    drawerTitle: Request detail
+    labelServiceAddr: Address
+    labelExpectedTime: Expected time
+    specialTags: Tags
+    description: Description
+    rejectLabel: Rejection reason
+    approvePublish: Approve & publish
+    rejectModalTitle: Reject request
+    rejectPlaceholder: Enter rejection reason (required)
+    confirmReject: Confirm reject
+  requestHistory:
+    title: Request history
+    subtitle: Review processed requests and revisit in-progress records.
+    tip: Completed requests are shown first by default.
+    statusPlaceholder: History status
+    communityPlaceholder: Community
+    loadFailed: Failed to load request history
+    statusPublished: Published
+    statusClaimed: Claimed
+    statusCompleted: Completed
+    statusRejected: Rejected
+    colCommunity: Community
+    colLatestProgress: Latest step
+    drawerSubtitle: Request flow and history
+    labelCommunity: Community
+    labelAuditor: Auditor
+    progressTitle: Progress steps
+    nodeCreated: Submitted
+    nodeAudited: Audited
+    nodePublished: Published
+    nodeClaimed: Claimed
+    nodeCompleted: Completed
+    emptyDescription: No description
+  announcements:
+    title: Announcements (community admin)
+    subtitle: Publish notices, policies, and alerts for residents and volunteers.
+    searchPlaceholder: Search title
+    scopePlaceholder: Audience
+    statusPlaceholder: Status
+    topPlaceholder: Pin
+    query: Search
+    reset: Reset
+    newAnnouncement: New announcement
+    loadFailed: Failed to load
+    editorCreate: New announcement
+    editorEdit: Edit announcement
+    editorEditWithId: 'Edit announcement {id}'
+    labelTitle: Title
+    titlePlaceholder: Enter title
+    labelScope: Audience
+    labelCommunityId: Community ID
+    labelBuildingId: Building ID
+    labelStatus: Status
+    labelTop: Pin to top
+    draft: Draft
+    published: Published
+    contentRich: Content (rich text)
+    richHint: Rich text supported; images can be added later.
+    preview: Preview
+    previewTitle: Preview
+    untitled: (Untitled)
+    noContent: (No content)
+    scopeAll: Everyone
+    scopeCommunity: Specific community
+    scopeBuilding: Specific building
+    statusDraft: Draft
+    statusPublished: Published
+    topYes: Pinned
+    topNo: Not pinned
+    tagTop: Pinned
+    colId: ID
+    colTitle: Title
+    colScope: Scope
+    colStatus: Status
+    colPublisher: Publisher
+    colPublishedAt: Published at
+    colActions: Actions
+    actionPreview: Preview
+    actionEdit: Edit
+    actionTop: Pin
+    actionUntop: Unpin
+    actionDelete: Delete
+    ruleTitle: Title is required
+    ruleContent: Content is required
+    ruleScope: Please select audience
+    ruleCommunityId: Enter community ID
+    ruleBuildingId: Enter building ID
+    saveFailed: Save failed
+    saveOk: Saved
+    deleteTitle: Confirm delete
+    deleteBody: 'Delete announcement "{name}"? This cannot be undone.'
+    topOk: Pinned
+    untopOk: Unpinned
+    deleteOk: Deleted
+    deleteFailed: Delete failed
+    metaScope: Scope
+    metaStatus: Status
+    metaPublisher: Publisher
+    metaTime: Published at
+    metaPreviewRow: 'Scope: {scope}; status: {status}; publisher: {publisher}; published: {time}'
+    metaPreviewForm: 'Scope: {scope}; status: {status}'
+    opFailed: Operation failed
+    btnCancel: Cancel
+    btnSave: Save
+  audit:
+    title: Audit log
+    subtitle: Filter logs by operator, time, and module for traceability.
+    modUserManage: Users & roles
+    modSystemConfig: System configuration
+    modRequestAudit: Request review
+    modVolunteerAudit: Volunteer review
+    modServiceFlow: Service flow
+    modDataExport: Data export
+    modAuth: Login / security
+    resultSuccess: Success
+    resultFail: Failure
+    riskNormal: Normal
+    riskWarn: Warning
+    riskHigh: High risk
+    noData: No audit data yet. Connect the backend to view logs.
+    networkError: Audit API unavailable or network error. Retry later.
+    colTime: Time
+    colOperator: Operator
+    colModule: Module
+    colAction: Action
+    colResult: Result
+    colRisk: Risk
+    colActions: Actions
+    viewDetail: Details
+    cardTodayCount: "Today's count (this page)"
+    cardTodayHint: Log entries created today in the current result set
+    cardTodayFailed: "Today's failures (this page)"
+    cardTodayFailedHint: Failed operations today in this page
+    cardTodayHigh: "Today's high risk (this page)"
+    cardTodayHighHint: High-risk events today in this page
+    cardLastHighTitle: Latest high-risk time (this page)
+    cardLastHighHint: Most recent high-risk operation on this page
+    timeRange: Time range
+    startTime: Start
+    endTime: End
+    placeholderUsername: Operator username
+    placeholderRole: Role
+    placeholderModule: Module
+    placeholderResult: Result
+    placeholderRisk: Risk level
+    detailTitle: Audit log detail
+    labelOperatorSlashRole: Operator / role
+    labelModuleSlashAction: Module / action
+    labelRequestPath: Request path
+    labelElapsed: Elapsed
+    all: All
+  backup:
+    title: Export & backup
+    exportOk: Export succeeded
+    exportFail: Export failed
+    backupFail: Backup failed
+    backupOk: Backup completed
+    saveFail: Save failed
+    saveOk: Saved
+    selectFileFirst: Select a backup file first
+    fileNotFound: File not found
+    restoreTitle: Restore database
+    restoreBody: Restore will overwrite current data. Back up first. Continue?
+    restoreConfirm: Restore
+    restoreFail: Restore failed
+    restoreSubmitted: Restore task submitted
+    deleteTitle: Delete backup
+    deleteBody: 'Delete backup file "{name}"?'
+    deleteOk: Deleted
+    downloadFail: Download failed
+    loadFailed: Failed to load
+    moduleRequest: Requests
+    moduleUsers: Users
+    moduleAudit: Audit logs
+    scheduleDaily: Daily
+    scheduleWeekly: Weekly
+    scheduleMonthly: Monthly
+    statusSuccess: Success
+    statusFailed: Failed
+    statusRunning: In progress
+    colFilename: File name
+    colStatus: Status
+    colSize: Size
+    colCreated: Created at
+    colId: ID
+    colNote: Note
+    subtitle: "High-risk operations: export, backup, and restore. For super admins only; confirm before proceeding."
+    alertWarn: Restore overwrites existing data. Back up manually first and run during low traffic.
+    cardExport: Data export
+    cardDbBackup: Database backup
+    cardRestore: Restore from backup
+    cardHistory: Backup history
+    placeholderModule: Select module
+    placeholderFormat: Export format
+    timeRangeOptional: Time range (optional)
+    btnExport: Export
+    btnClearTime: Clear time range
+    exportHint: Export can be filtered by time; finer filters (community, service type) may be added later.
+    manualBackupTitle: Manual backup
+    manualBackupDesc: Create a database backup file for disaster recovery.
+    btnBackupNow: Back up now
+    scheduleTitle: Scheduled backup
+    keepPrefix: Keep for
+    keepSuffix: days
+    btnSaveSchedule: Save schedule
+    chooseFile: Choose backup file
+    restoreHint: Upload `.sql` / `.gz` / `.zip` (validated by backend when connected).
+    btnRestore: Restore database
+    historyFooterHint: Demo UI; real backup list and actions when backend is connected.
+    btnDownload: Download
+    btnDelete: Delete
+    deleteFail: Delete failed
+  systemConfig:
+    title: System configuration
+    subtitle: Platform-wide settings for basic parameters, notification templates, and alert rules. Super admins only.
+    loadFailed: Failed to load settings. Check your network and try again.
+    saveFailed: Save failed
+    saveOkBasic: Basic parameters saved
+    saveOkNotice: Notification templates saved
+    saveOkAlert: Alert rules saved
+    saveOkAi: AI settings saved
+    btnSave: Save
+    btnTestAi: Test connection
+    collapseBasic: '1. Basic parameters'
+    collapseNotice: '2. Notification templates'
+    collapseAlert: '3. Alert rules'
+    collapseAi: '4. AI'
+    cardBusiness: Business rules
+    cardCompliance: Compliance & risk
+    cardA11y: Digital accessibility
+    cardTimeout: Timeout alerts
+    cardKpi: KPI thresholds
+    cardCredit: Resident credit & freeze
+    cardAnomaly: Anomaly innovation rules
+    cardAi: AI chat service
+    aiEnabled: Enable AI chat
+    aiEnabledHint: When disabled, the system falls back to built-in FAQ responses.
+    aiBaseUrl: Model Base URL
+    aiBaseUrlHint: OpenAI-style endpoint (e.g. /chat/completions).
+    aiModel: Model name
+    aiModelHint: e.g. deepseek-v4-flash / deepseek-v4-pro
+    aiApiKey: API key (optional)
+    aiApiKeyPh: Leave empty to keep current key; enter to update
+    aiApiKeyHint: For security, the existing key is never shown. Re-enter to update.
+    aiKeyConfigured: Key configured
+    aiKeyMissing: Key missing
+    aiTestOk: 'Connected: {status}, {ms}ms'
+    aiTestFail: 'Failed: {status}, {err}'
+    pointsPerHour: Points per service hour
+    pointsPerHourHint: Points redeemable for canteen, housekeeping, etc.
+    demandClassifyHours: Demand classification SLA (hours)
+    demandClassifyHoursHint: Time for community admins to triage pending requests
+    feedbackDays: Satisfaction follow-up (days)
+    feedbackDaysHint: Deadline for post-service satisfaction surveys
+    requireVideoWitness: Video witness for first match
+    requireVideoWitnessHint: First resident–volunteer contact must be witnessed by a community admin
+    requireSmsVerify: SMS verification for sensitive actions
+    requireSmsVerifyHint: e.g. changing service time or canceling orders
+    requireDoubleSign: Manual review & dual sign for high-risk
+    requireDoubleSignHint: e.g. minors, medical assistance
+    enableVoiceInput: Enable voice input
+    enableLargeText: Enable large text mode
+    enablePhoneBooking: Phone booking & community proxy channel
+    noticePlaceholderHint: 'Placeholders: {code}, {title}, {reason}'
+    tplSmsVerify: SMS verification template
+    phSmsVerify: SMS body for verification codes
+    tplDemandApproved: Demand approved template
+    phDemandApproved: Demand approved notice
+    tplDemandRejected: Demand rejected template
+    phDemandRejected: Demand rejected notice
+    tplVolunteerApproved: Volunteer approved template
+    phVolunteerApproved: Volunteer approved notice
+    tplVolunteerRejected: Volunteer rejected template
+    phVolunteerRejected: Volunteer rejected notice
+    tplDemandMatched: Demand matched template
+    phDemandMatched: Match success notice
+    demandUnclaimedHours: Demand unclaimed timeout (hours)
+    demandUnclaimedHoursHint: Triggers admin dispatch when exceeded
+    serviceUnfinishedHours: Service unfinished timeout (hours)
+    serviceUnfinishedHoursHint: Triggers alert and intervention when exceeded
+    enableUnclaimedAlert: Enable unclaimed alert
+    enableUnfinishedAlert: Enable unfinished alert
+    fulfillmentRateThreshold: Fulfillment rate floor (alert if below)
+    fulfillmentRateHint: e.g. 0.8 alerts when fulfillment is below 80%
+    complaintRateThreshold: Complaint rate ceiling (alert if above)
+    complaintRateHint: e.g. 0.05 alerts when complaints exceed 5%
+    enableFulfillmentAlert: Enable fulfillment alert
+    enableComplaintAlert: Enable complaint alert
+    noShowFreezeCount: No-shows before service freeze
+    noShowFreezeHint: Freeze after this many no-shows (two-way rating)
+    careInactivityDays: Inactive days threshold (care alert)
+    careInactivityDaysHint: Trigger proactive care alert when inactivity reaches this number of days
+    surge24hMinRequests: 24h demand surge minimum threshold
+    surge24hMinRequestsHint: Trigger when 24h requests exceed this and multiplier threshold
+    surgeMultiplier: Demand surge multiplier threshold
+    surgeMultiplierHint: Relative to the average of previous 7 days (e.g. 2.0)
+  globalDashboard:
+    title: Global dashboard
+    subtitle: Platform match rate, volunteer coverage, and regional activity.
+    refresh: Refresh
+    loadStatsFail: Failed to load statistics
+    loadFail: Failed to load dashboard
+    kpiMatchRate: Request match rate
+    kpiMatchRateDesc: Completed / total requests
+    kpiMatchDetail: 'Completed: {completed}, total: {total}'
+    kpiCoverage: Volunteer coverage
+    kpiCoverageDesc: Active volunteers / eligible volunteers
+    kpiActiveVol: 'Active volunteers: {n}'
+    kpiTotalReq: Total & completed requests
+    kpiTotalLabel: Total requests
+    kpiCompletedLine: 'Completed: {n}'
+    kpiPending: 'Pending review: {n}'
+    kpiHours: Total service hours
+    kpiHoursDesc: Sum of completed service hours
+    chartMatchShare: Match distribution
+    chartNoData: No request data.
+    chartMonthly: This month (new vs completed)
+    chartMonthlyNoData: No monthly stats.
+    chartHeatmap: Regional heatmap
+    heatmapHint: Heat by completed services aggregated at provincial level on the China map; updates with real records.
+    legendMatched: Matched
+    legendUnmatched: Unmatched
+    seriesNew: New this month
+    seriesDone: Completed this month
+    seriesRequests: Requests
+  unifiedDashboard:
+    pageTitle: Home dashboard
+    pageSubtitle: Role-specific KPIs and tasks.
+    loadFail: Failed to load dashboard
+    noData: No data to display
+    empty: No data
+    kpiVolunteers: Active volunteers (global)
+    kpiVolunteersHint: Volunteers with at least one completed service
+    kpiHours: Total service hours
+    kpiHoursHint: Sum of hours on completed claims
+    kpiPending: Pending review
+    kpiPendingHint: Requests awaiting community review
+    kpiCompleted: Completed requests
+    kpiCompletedHint: Fully completed requests
+    sectionDemandMix: Demand mix by service type
+    sectionFund: Funds / materials monitoring
+    fundIn: Cash in
+    fundOut: Cash out
+    matIn: Materials in
+    matOut: Materials out
+    sectionSchedule: Upcoming schedule (expected time in the future)
+    colType: Service type
+    colTime: Expected time
+    colAddr: Address
+    communityScopeNote: Data is scoped to your bound community (except cross-community features).
+    kpiActiveUsers: Active volunteers
+    kpiActiveUsersHint: Community view (demo same as global)
+    kpiPendingAudit: Pending reviews
+    kpiPendingAuditHint: Pending request count
+    kpiMonthlyNew: New requests this month
+    kpiMonthlyNewHint: Requests created this month
+    kpiMonthlyDone: Completed this month
+    kpiMonthlyDoneHint: Requests completed this month
+    volHours: Total hours
+    volPending: Open tasks (claimed, not done)
+    volDone: Completed services
+    volRating: Average rating
+    volRatingHint: Based on {n} resident reviews
+    volProjects: Recent projects (service types)
+    volHonor: Honors & ranking
+    resPending: Pending
+    resPublished: Published
+    resClaimed: Claimed
+    resCompleted: Completed
+    resRejected: Rejected
+    resEvalCount: Reviews you gave
+    resEvalHint: Reviews you submitted for volunteers
+    resAnnouncements: Announcement digest
+support:
+  buyMeCoffee:
+    title: Buy me coffee
+    tooltip: Support this project by buying me a coffee
+  github:
+    title: Star On Github
+    tooltip: Support this project by giving a star ⭐️ on GitHub
+todoApp:
+  completed: Completed
+  createGroup:
+    groupTitle: Group Title
+    taskTitle: Task Title
+    theme: Theme
+    title: Create Group
+  createTask: Create new task
+  today: Today
+userMenu:
+  dark: Dark
+  language: Language
+  light: Light
+  logout: Logout
+  options: Options
+  profile: Profile
+  signOut: sign out
+  theme: Theme

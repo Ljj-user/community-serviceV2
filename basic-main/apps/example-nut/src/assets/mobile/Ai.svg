@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-label="AI">
+  <defs>
+    <linearGradient id="aiBg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#0D9A38" />
+      <stop offset="100%" stop-color="#45D770" />
+    </linearGradient>
+  </defs>
+  <rect x="0" y="0" width="256" height="256" rx="54" fill="url(#aiBg)" />
+  <path d="M98 73 L112 106 L145 120 L112 134 L98 167 L84 134 L51 120 L84 106 Z" fill="#FFFFFF"/>
+  <path d="M169 91 L176 109 L194 116 L176 123 L169 141 L162 123 L144 116 L162 109 Z" fill="#FFFFFF"/>
+  <path d="M169 151 L176 169 L194 176 L176 183 L169 201 L162 183 L144 176 L162 169 Z" fill="#FFFFFF"/>
+</svg>

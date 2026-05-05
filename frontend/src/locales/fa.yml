@@ -1,0 +1,369 @@
+title: ادمین پنل یامی
+description: داشبورد رایگان vue3
+direction: rtl
+currencySign: ریال
+home: خانه
+not-found: یافت نشد
+languages:
+  ar: عربی
+  zn: چینی
+  de: آلمانی
+  en: انگلیسی
+  fa: فارسی
+  tr: ترکی
+enums:
+  OrderStatus:
+    Delivered: تحویل شده
+    Processing: درحال پردازش
+    ReadyToSend: آماده ارسال
+    Sent: ارسال شده
+    Submitted: ثبت شده
+  ProductStatus:
+    Active: فعال
+    Draft: پیش نویس
+    NotActive: غیر فعال
+common:
+  403Error: خطای دسترسی
+  404Error: 404 خطای
+  404Message: متاسفانه صفحه ای که دنبالش بودید پیدا نشد
+  500Error: خطای سرور
+  500Message: >-
+    مشکلی پیش آمده است. لطفا بعدا تلاش کنید یا اگر مشکل ادامه داشت با مدیر سایت
+    تماس بگیرید.
+  actions: عملیات
+  cancel: لغو کردن
+  confirm: تایید
+  create: ایجاد
+  currency: IRR
+  date: تاریخ
+  day: روز
+  delete: حذف کردن
+  deleteConfirm: آیا از حذف این مورد مطمئن هستید؟
+  deleteMultipleConfirm: آیا از حذف موارد انتخاب شده مطمئن هستید؟
+  deletedMessage: با موفقیت حذف شد
+  goHome: بازگشت به خانه
+  locale: fa-IR
+  maintenance: بروزرسانی
+  maintenanceDetail: |-
+    ما در حال حاضر تعمیر و نگهداری برنامه ریزی شده را انجام می دهیم. 
+    ما به زودی به صورت آنلاین باز خواهیم گشت!
+  month: ماه
+  name: نام
+  new: جدید
+  notFound: پیدا نشد
+  oops: صفحه
+  price: قیمت
+  refresh: تازه کردن
+  search: جستجو
+  settings: تنظیمات
+  status: وضعیت
+  week: هفته
+  perPage: در صفحه
+analyticsDashboard:
+  bounceRate: نرخ بازگشت
+  summary: خلاصه
+  views: مشاهده ها
+  visitors: بازدید کننده ها
+  visits: بازدید ها
+  pages: صفحه ها
+  source: منبع
+brands:
+  brand: برند
+  create:
+    brandName: نام برند
+    buttonTitle: ایجاد
+    image: تصویر
+    title: ایجاد
+    url: وبسایت
+  createButton: ذخیره
+  name: نام برند
+  shortName: اسم کوتاه
+  title: برند ها
+  validations:
+    image: تصویر برند الزامی است
+    name: نام برند الزامی است
+    url: وبسایت صحیح نیست
+button:
+  about: درباره
+  back: بازگشت
+  go: برو
+  home: خانه
+  notifications: اعلان ها
+  toggle_customize: سفارشی کردن
+  toggle_dark: حالت تیره
+  toggle_fullscreen: تمام صفحه
+  toggle_langs: تغییر زبان
+categories:
+  count: تعداد
+  create:
+    buttonTitle: دسته جدید
+    categoryName: نام دسته
+    parent: دسته والد
+    title: ایجاد دسته بندی جدید
+  createButton: ذخیره
+  createdSucceed: با موفقیت ایجاد شد
+  stat: آمار
+  title: دسته بندی ها
+  topCategories: دسته های برتر
+  validations:
+    nameRequired: نام دسته الزامی است
+    parentRequired: دسته والد الزامی است
+category:
+  name: دسته بندی
+  productsCount: تعداد محصولات
+chatApp:
+  call: تماس
+  writeMessage: پیغام تان را بنویسید
+colors:
+  color: رنگ
+  create:
+    buttonTitle: رنگ جدید
+    color: رنگ
+    name: نام رنگ
+    title: ایجاد رنگ جدید
+  createButton: ذخیره
+  name: نام
+  title: نام رنگ
+  validations:
+    colorRequired: رنگ الزامی است
+    nameRequired: نام رنگ الزامی است
+  deleteMessage: رنگ با موفقیت حذف شد!
+  createMessage: رنگ جدید با موفقیت اضافه شد
+customers:
+  customerName: نام مشتری
+  email: ایمیل
+  joinDate: تاریخ عضویت
+  ordersCount: تعداد سفارش ها
+  phone: موبایل
+  title: مشتریان
+  points: امتیاز ها
+  userGroup: گروه کاربری
+customize:
+  color: رنگ
+  flatDesign: طرح مسطح
+  fluid: عرض شناور
+  language: زبان
+  layout: چیدمان
+  rtl: راست به چپ
+  theme: پوسته
+  title: سفارشی سازی
+dashboard:
+  activeOrders: سفارش های فعال
+  genderChart:
+    title: جنسیت مشتریان
+  locationChart:
+    title: موقعیت مکانی مشتریان
+  monthlySell: فروش ماهانه
+  products: محصولات
+  recentOrders: سفارش های اخیر
+  registerSource:
+    subtitle: مجموع ثبت نام ها
+    title: منبع ثبت نام
+  registers: ثبت نام ها
+  revenueChart:
+    subtitle: مجموع درآمد
+    title: درآمد
+  sellChart:
+    title: فروش و درآمد روزانه
+  sells: فروش
+  summary: خلاصه
+  transactions: تراکنش ها
+  trendingProducts: محصولات پربازدید
+  userPlatforms:
+    subtitle: مجموع کاربران
+    title: پلتفرم های کاربر
+  welcome:
+    congratulations1: شما به
+    congratulations2: فروش رسیدید
+    greeting_message: روز خوبی داشته باشید! خوشحالیم که اینجا هستید.
+    title: خوش آمدید
+forgot:
+  button: بازیابی
+  email: ایمیل
+  emailValidation: ایمیل معتبر نیست
+  haveNotAccount: اکانت ندارید؟
+  login: ورود
+  register: یکی بسازید
+  rememberInfo: رمز عبور را به خاطر دارید؟
+  resetPassword: بازنشانی رمز عبور
+  sendEmailSuccess: ایمیل با موفقیت ارسال شد، لطفا ایمیل خود را بررسی کنید
+  title: فراموشی رمز عبور
+  username: نام کاربری
+login:
+  createAccount: یکی بسازید
+  failedMessage: خطا در ورود
+  forgetPassword: فراموشی رمز عبور
+  haveNotAccount: حساب کاربری ندارید؟
+  loginButton: ورود
+  message: برای دسترسی به کلیه امکانات از این فرم برای ورود استفاده کنید
+  password: رمز عبور
+  rememberMe: مرا بخاطر بسپار
+  skipLogin: رد کردن
+  successMessage: ورود موفق 🎉
+  title: ورود به سیستم
+  username: نام کاربری
+  validations:
+    passwordRequired: رمز عبور الزامی است
+    userNameRequired: نام کاربری الزامی است
+  welcome: خوش آمدید
+  loginUsing: ورود با
+menu:
+  accountSettings: تنظیمات کاربر
+  analytics: آنالیز
+  announcement: اطلاع رسانی
+  apps: برنامه ها
+  authentication: احراز هویت
+  blog: بلاگ
+  brands: برند ها
+  categories: دسته بندی ها
+  charts: نمودار ها
+  chat: چت
+  colors: رنگ ها
+  comments: نظرات
+  components: کامپوننت ها
+  createProduct: ایجاد محصول
+  customers: مشتری ها
+  dashboard: داشبورد
+  data: داده ها
+  eCommerce: فروشگاه اینترنتی
+  error: خطای 500
+  feedbacks: بازخورد ها
+  forgetPassword: فراموشی رمز
+  forms: فرم ها
+  icons: آیکون ها
+  login: ورود
+  maintenance: بروزرسانی
+  messages: نظرات
+  news: اخبار
+  notFound: خطای 404
+  notifications: نوتیفیکشن ها
+  orders: سفارشات
+  other: سایر
+  otherApps: سایر برنامه ها
+  pages: صفحات
+  productManagement: مدیریت محصولات
+  products: محصولات
+  productsManagement: مدیریت محصولات
+  profile: پروفایل
+  register: ثبت نام
+  reviews: بررسی ها
+  settings: تنظیمات
+  sms: پیامک
+  support: پشتیبانی
+  todo: کارها
+  typography: تایپوگرافی
+  users: کاربران
+  websiteSettings: تنظیمات وبسایت
+notifications:
+  clear: همه را پاک کنید
+  empty: هیچ اعلانی وجود ندارد
+  title: اعلان ها
+  order: سفارش
+  security: امنیت
+  productStock: موجودی محصول
+  stats: آمار
+  orderSubmitted: سفارش جدید ثبت شد
+  passwordExpire: 'رمز عبور شما در {count} روز دیگر منقضی می‌شود'
+  customerRegister: "{count} مشتری جدید دیروز ثبت‌نام کردند"
+  stockWarning: موجودی محصول در حال کاهش است
+  orderCanceled: یک سفارش لغو شد
+notify:
+  welcome: >-
+    به پنل ادمین یامی خوش آمدید، لطفا این پروژه را با دادن یک ستاره ⭐️ در گیت
+    هاب پشتیبانی کنید
+orders:
+  customer: نام مشتری
+  itemsCount: تعداد محصولات
+products:
+  category: دسته بندی
+  create:
+    barcode: بارکد
+    brand: برند
+    category: گروه محصول
+    description: توضیحات
+    discountedPrice: قیمت بعد از تخفیف
+    imageName: تصویر محصول
+    inStock: موجود
+    keywords: کلمات کلیدی
+    media: رسانه
+    name: نام محصول
+    newKeyword: کلمه کلیدی جدید
+    price: قیمت
+    pricing: قیمت گذاری
+    productInformation: توضیحات محصول
+    sku: شناسه محصول
+    title: ایجاد محصول
+  name: نام محصول
+  rate: امتیاز
+  stock: موجود
+  stoke: موجود
+  deleteMessage: محصول حذف شد
+profile:
+  changePassword: تغییر رمز عبور
+  confirmPassword: تأیید رمز عبور
+  email: ایمیل
+  firstName: نام
+  lastName: نام خانوادگی
+  location: محل
+  newPassword: رمزعبور جدید
+  notificationType: نوع اعلان
+  notificationTypes:
+    newMessage: پیغام جدید
+    newOrder: سفارش جدید
+    newRegister: ثبت نام جدید
+    outOfStock: اتمام موجودی
+  notifications: اعلان ها
+  oldPassword: رمز عبور جاری
+  personalInfo: اطلاعات شخصی
+  phone: تلفن
+  push: پوش نوتیفیکیشن
+  save: ذخیره
+  security: امنیت
+  sms: پیامک
+  title: پروفایل
+  username: نام کاربری
+register:
+  button: ثبت نام
+  haveAccount: اکانت دارید؟
+  login: وارد شوید!
+  password: رمز عبور
+  successMessage: با موفقیت ثبت نام شدید 🎉
+  title: ثبت نام
+  username: نام کاربری
+reviews:
+  comment: نظر
+  customer: مشتری
+  date: تاریخ
+  product: محصول
+  rate: امتیاز
+support:
+  buyMeCoffee:
+    title: پشتیبانی از پروژه
+    tooltip: با خرید یک فنجان قهوه حامی این پروژه باشید
+  github:
+    title: امتیاز گیت هاب
+    tooltip: این پروژه را با دادن یک ستاره ⭐️ در گیت هاب پشتیبانی کنید
+todoApp:
+  completed: انجام شده
+  createGroup:
+    groupTitle: عنوان
+    taskTitle: عنوان تسک
+    theme: تم
+    title: گروه جدید
+  createTask: ایجاد تسک جدید
+  today: امروز
+userMenu:
+  dark: تیره
+  en: انگلیسی
+  fa: فارسی
+  language: زبان
+  light: روشن
+  logout: خروج
+  options: تنظیمات
+  profile: پروفایل
+  signOut: خروج
+  theme: پوسته
+charts:
+  loading: در حال بارگزاری
+  notData: هیچ داده در دسترس نیست
+  unableToDisplay: خطا در داده های نمودار

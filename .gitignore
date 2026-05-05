@@ -1,0 +1,52 @@
+# 依赖与构建产物
+node_modules/
+**/node_modules/
+.m2/
+**/.m2/
+dist/
+dist-*/
+dist-ssr/
+target/
+*.tsbuildinfo
+
+# 日志与缓存
+*.log
+.npm-cache/
+.eslintcache
+.stylelintcache
+.vite/
+.vite-ssg-dist/
+.vite-ssg-temp/
+
+# 环境变量（勿把密码提交到 Git）
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.cursor/
+*.swp
+*.swo
+.DS_Store
+
+# Git worktrees (local)
+.worktrees/
+
+# 后端本地上传（若存在）
+uploads/
+**/uploads/
+
+# OS
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# 本机解压的工具链（勿提交）
+tools/
+
+# 含个人信息的本地文档（勿提交）
+【20222286】张正豪-开题报告.doc
+
+# 毕业论文与论文过程资料（敏感资料，保留本地，不纳入仓库）
+毕业论文/

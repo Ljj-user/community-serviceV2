@@ -1,0 +1,26 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/community_service?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Shanghai&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: 123456
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 20MB
+
+app:
+  avatar-upload-dir: uploads/avatars
+  # 移动端在 9000 端口渲染 <img> 时需要绝对地址，否则会去请求 9000 的 /static 导致 404
+  avatar-base-url: http://localhost:8080/static/avatars/
+  auth:
+    expose-dev-code: true
+  ai:
+    enabled: false
+    base-url: https://api.deepseek.com
+    model: deepseek-v4-flash
+    # 建议不要把 key 写进仓库文件里：
+    # - Windows（PowerShell）: setx APP_AI_API_KEY "sk-xxx"
+    # - macOS/Linux: export APP_AI_API_KEY="sk-xxx"
+    # 也兼容 DEEPSEEK_API_KEY
+    api-key:
