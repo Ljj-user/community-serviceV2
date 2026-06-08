@@ -179,20 +179,19 @@ public class UserDashboardServiceImpl implements UserDashboardService {
             }
         }
         vo.setRecentProjectTitles(titles);
-        List<BigDecimal> snapshot = jdbcTemplate.query("""
+        jdbcTemplate.query("""
                 SELECT credit_score, avg_rating_30d, completion_rate_30d
                 FROM volunteer_credit_snapshot
                 WHERE user_id=?
-                """, (rs, rowNum) -> List.of(
-                rs.getBigDecimal("credit_score"),
-                rs.getBigDecimal("avg_rating_30d"),
-                rs.getBigDecimal("completion_rate_30d")
-        ), userId).stream().findFirst().orElse(null);
-        if (snapshot != null) {
-            vo.setCreditScore(snapshot.get(0));
-            vo.setAvgRating30d(snapshot.get(1));
-            vo.setCompletionRate30d(snapshot.get(2));
-        } else {
+                """, rs -> {
+            if (rs.next()) {
+                vo.setCreditScore(rs.getBigDecimal("credit_score"));
+                vo.setAvgRating30d(rs.getBigDecimal("avg_rating_30d"));
+                vo.setCompletionRate30d(rs.getBigDecimal("completion_rate_30d"));
+            }
+            return null;
+        }, userId);
+        if (vo.getCreditScore() == null && vo.getAvgRating30d() == null && vo.getCompletionRate30d() == null) {
             vo.setCreditScore(BigDecimal.ZERO);
             vo.setAvgRating30d(null);
             vo.setCompletionRate30d(BigDecimal.ZERO);

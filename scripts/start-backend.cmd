@@ -12,19 +12,19 @@ if not exist "%BACKEND_DIR%" (
   echo backend directory not found: %BACKEND_DIR%
   exit /b 1
 )
-if not exist "%MAVEN_CMD%" (
-  echo Maven not found: %MAVEN_CMD%
-  exit /b 1
-)
 if not exist "%PROJECT_ROOT%\.m2" mkdir "%PROJECT_ROOT%\.m2"
 if not exist "%MAVEN_REPO_DIR%" mkdir "%MAVEN_REPO_DIR%"
 
 call :resolve_java_home
 if errorlevel 1 goto :fail
 
+call :resolve_maven
+if errorlevel 1 goto :fail
+
 call :stop_port 8080
 
 echo JAVA_HOME=%JAVA_HOME%
+echo MAVEN_CMD=%MAVEN_CMD%
 echo MAVEN_REPO=%MAVEN_REPO_DIR%
 cd /d "%BACKEND_DIR%"
 call "%MAVEN_CMD%" -Dmaven.repo.local="%MAVEN_REPO_DIR%" -f "%BACKEND_DIR%\pom.xml" spring-boot:run
@@ -47,6 +47,33 @@ for %%I in ("%JAVA_EXE%\..\..") do set "JAVA_HOME=%%~fI"
 if exist "%JAVA_HOME%\bin\java.exe" goto :eof
 
 echo Failed to resolve JAVA_HOME from: %JAVA_EXE%
+exit /b 1
+
+:resolve_maven
+if exist "%MAVEN_CMD%" goto :eof
+
+for /f "delims=" %%I in ('where mvn.cmd 2^>nul') do (
+  set "MAVEN_CMD=%%~fI"
+  goto :maven_found
+)
+
+for /f "delims=" %%I in ('where mvn.bat 2^>nul') do (
+  set "MAVEN_CMD=%%~fI"
+  goto :maven_found
+)
+
+for /f "delims=" %%I in ('where mvn 2^>nul') do (
+  set "MAVEN_CMD=%%~fI"
+  goto :maven_found
+)
+
+echo Maven not found. Please install Maven or add mvn to PATH.
+exit /b 1
+
+:maven_found
+if exist "%MAVEN_CMD%" goto :eof
+
+echo Maven not found. Please install Maven or add mvn to PATH.
 exit /b 1
 
 :stop_port

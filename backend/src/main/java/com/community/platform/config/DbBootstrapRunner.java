@@ -30,6 +30,7 @@ public class DbBootstrapRunner implements ApplicationRunner {
         runSafely("ensureCommunityInviteCode", this::ensureCommunityInviteCode);
         runSafely("ensureCommunityBanner", this::ensureCommunityBanner);
         runSafely("ensureAnomalyAlertAndCredit", this::ensureAnomalyAlertAndCredit);
+        runSafely("ensureVolunteerCreditLedgerSchema", this::ensureVolunteerCreditLedgerSchema);
         runSafely("ensureAiAnalysisRecord", this::ensureAiAnalysisRecord);
         runSafely("ensureDualEvaluationSchema", this::ensureDualEvaluationSchema);
         runSafely("ensureRuntimeConfig", this::ensureRuntimeConfig);
@@ -242,6 +243,52 @@ public class DbBootstrapRunner implements ApplicationRunner {
                   PRIMARY KEY (user_id)
                 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COMMENT='志愿者信用快照表';
                 """);
+    }
+
+    private void ensureVolunteerCreditLedgerSchema() {
+        Integer tableExists = jdbcTemplate.queryForObject("""
+                SELECT COUNT(1)
+                FROM information_schema.tables
+                WHERE table_schema = DATABASE()
+                  AND table_name = 'volunteer_credit_ledger'
+                """, Integer.class);
+        if (tableExists == null || tableExists == 0) {
+            return;
+        }
+
+        ensureLedgerColumn("overtime_penalty", "DECIMAL(5,2) NOT NULL DEFAULT 1.00");
+        ensureLedgerColumn("credit_delta", "DECIMAL(10,2) NOT NULL DEFAULT 0");
+        ensureLedgerColumn("calc_version", "VARCHAR(32) NOT NULL DEFAULT 'v1'");
+        ensureLedgerColumn("created_at", "DATETIME(3) NOT NULL DEFAULT CURRENT_TIMESTAMP(3)");
+
+        ensureLedgerIndex("uk_credit_claim", "UNIQUE KEY uk_credit_claim (claim_id)");
+        ensureLedgerIndex("idx_credit_user_time", "KEY idx_credit_user_time (user_id, created_at)");
+    }
+
+    private void ensureLedgerColumn(String columnName, String definition) {
+        Integer exists = jdbcTemplate.queryForObject("""
+                SELECT COUNT(1)
+                FROM information_schema.columns
+                WHERE table_schema = DATABASE()
+                  AND table_name = 'volunteer_credit_ledger'
+                  AND column_name = ?
+                """, Integer.class, columnName);
+        if (exists == null || exists == 0) {
+            jdbcTemplate.execute("ALTER TABLE volunteer_credit_ledger ADD COLUMN " + columnName + " " + definition);
+        }
+    }
+
+    private void ensureLedgerIndex(String indexName, String indexDefinition) {
+        Integer exists = jdbcTemplate.queryForObject("""
+                SELECT COUNT(1)
+                FROM information_schema.statistics
+                WHERE table_schema = DATABASE()
+                  AND table_name = 'volunteer_credit_ledger'
+                  AND index_name = ?
+                """, Integer.class, indexName);
+        if (exists == null || exists == 0) {
+            jdbcTemplate.execute("ALTER TABLE volunteer_credit_ledger ADD " + indexDefinition);
+        }
     }
 
     private void ensureAiAnalysisRecord() {
